@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #091C32;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridIcons {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.usuario {
+    padding-right: 5px;
+}
+
+.contatos {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.facebook {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.instagram {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.carrinho {
+    padding-left: 5px;
+}
+
+input {
+    border-radius: 50px;
+    width: 564px;
+    height: 30px;
+}
+
+.buscar {
+    padding-left: 15px;
+}
+
+nav {
+    font-family: Work Sans;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bcbcbc;
+    transition: all .10s linear;
+}
+
+a:hover {
+    color: white;
+}
+
+.outlet {
+    color: rgb(200, 0, 0);
+}
+
+.outlet:hover {
+    color: red
+}
