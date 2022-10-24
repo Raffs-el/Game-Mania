@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -85,4 +87,68 @@ a:hover {
 
 .outlet:hover {
     color: red
+}
+
+.banner {
+    height: 464px;
+    background-image: url(img/Banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shopNow {
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all .10s linear;
+}
+
+.shopNow:hover {
+    color: white;
+    background-color: red;
+}
+
+.posicionamentoBanner {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: center;
+    padding-left: 425px;
+}
+
+.conteudoBanner {
+    width: 191.17;
+    height: 190.18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcas {
+    background-color: white;
+    height: 50px;
+}
+
+.posicionamento-marcas {
+    height: 100%;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
 }
