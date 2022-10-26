@@ -10,26 +10,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+        defer></script>
+    <script src="js/script.js" defer> </script>
 </head>
 
 <body>
     <header>
-        <div class="gridIcons">
+        <div class="grid Icons">
             <div class="icons">
                 <a href="index.html"><img src="img/Logomarca.svg" alt="Logomarca Game Mania"></a>
+
                 <forms>
-                    <input class="buscar" type="search" placeholder="Buscar">
+                    <div class="barraDeBusca">
+                        <input type="text" placeholder="Buscar">
+                        <button>
+                            <img src="img/Lupa.svg">
+                        </button>
+                    </div>
                 </forms>
+
                 <div class="icons2">
-                    <a href="login.html"><img class="usuario" src="img/Usuário.svg" alt="login"></a>
-                    <a href="contatos.html"><img class="contatos" src="img/Contatos.svg" alt="contatos"></a>
+                    <a href="login.html"><img class="usuario" src="img/Usuário.svg" alt="Login"></a>
+                    <a href="contatos.html"><img class="contatos" src="img/Contatos.svg" alt="Contatos"></a>
                     <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="img/Facebook.svg"
-                            alt="facebook"></a>
+                            alt="Facebook"></a>
                     <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="img/Instagram.svg"
-                            alt="instagram"></a>
-                    <a href="carrinho.html"><img class="carrinho" src="img/Carrinho.svg" alt="carrinho"></a>
+                            alt="Instagram"></a>
+                    <a href="carrinho.html"><img class="carrinho" src="img/Carrinho.svg" alt="Carrinho"></a>
                 </div>
+
             </div>
+
             <nav>
                 <a href="categorias.html">Categorias</a>
                 <a href="lancamentos.html">Lançamentos</a>
@@ -39,8 +52,9 @@
             </nav>
         </div>
     </header>
+
     <section class="banner">
-        <div class="posicionamentoBanner">
+        <div class="grid posicionamentoBanner">
             <div class="conteudoBanner">
                 <h1>Flash<br>Sale</h1>
                 <a class="shopNow" href="">Shop Now</a>
@@ -60,10 +74,87 @@
             <a href=""><img src="img/sony.svg" alt="Logo da Sony"></a>
         </div>
     </section>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+
+    <section class="grid container text-center">
+        <div class="row align-items-start">
+            <div class="col top">
+                <h1 class="produtos">PC Gamer</h1>
+                <a href=""><img src="img/pcgamer.svg" alt="Computador Gamer"></a>
+            </div>
+            <div class="col top">
+                <h1 class="produtos">Notebooks</h1>
+                <a href=""><img src="img/notebook.svg" alt="Notebooks"></a>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col mid">
+                <h1 class="produtos">Tablets</h1>
+                <a href=""><img src="img/tablet.svg" alt="Tablets"></a>
+            </div>
+            <div class="col mid">
+                <h1 class="produtos">Celulares</h1>
+                <a href=""><img src="img/celulares.svg" alt="Celulares"></a>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col bottom">
+                <h1 class="produtos">Videogames</h1>
+                <a href=""><img src="img/videogames.svg" alt="Videogames"></a>
+            </div>
+            <div class="col bottom">
+                <h1 class="produtos">Acessórios</h1>
+                <a href=""><img src="img/acessorios.svg" alt="Acessórios"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="grid">
+            <div class="itensFooter">
+                <img class="logomarca" src="img/gamemania.svg" alt="Logo GameMania">
+                <div class="Institucional">
+                    <h1 class="titlesFooter">Institucional</h1>
+                    <div class="pColor">
+                        <a class=aFooter href="">Contato </a><br>
+                        <a class=aFooter href="">Empresa</a> <br>
+                        <a class=aFooter href="">Como comprar</a> <br>
+                        <a class=aFooter href="">Pagamento</a> <br>
+                        <a class=aFooter href="">Assistência técnica</a> <br>
+                        <a class=aFooter href="">Políticas de envio</a> <br>
+                        <a class=aFooter href="">Política de pré-venda</a> <br>
+                        <a class=aFooter href="">Política de privacidade</a>
+                    </div>
+                </div>
+
+                <div class="Atendimento">
+                    <h1 class="titlesFooter">Atendimento</h1>
+                    <div class="pColor">
+                        <img src="img/telefone.svg"> 1234-5678 <br>
+                        <img src="img/whatsapp.svg"> 99876-5432 <br>
+                        <img src="img/telegram.svg"> <a class=aFooter href="">Atendimento via Telegram</a> <br>
+                        <img src="img/email.svg"> <a class=aFooter href="">atendimento@email.com.br</a>
+                        <hr>
+                        <p>Atendimento de Segunda a Sexta, das 08:00 as 18:00. </p>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <p class="inscrever">Se inscreva em nossa newsletter <br>para ficar por dentro de novidades!</p>
+
+                    <forms>
+                        <div class="email">
+                            <input type="text" placeholder="Buscar">
+                            <button>
+                                Inscreva-se
+                            </button>
+                        </div>
+                    </forms>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>

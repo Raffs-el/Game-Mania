@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -10,20 +13,20 @@
 
 header {
     background-color: #091C32;
-    height: 100px;
+    height: 105px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.gridIcons {
+.grid {
     width: 1200px;
-    height: 70px;
     margin: 0 auto;
 }
 
 .icons {
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,14 +57,19 @@ header {
     padding-left: 5px;
 }
 
-input {
-    border-radius: 50px;
-    width: 564px;
-    height: 30px;
+.barraDeBusca input[type='text'] {
+    width: 464px;
+    float: left;
+    border: none;
+    padding-left: 15px;
+    border-radius: 50px 0 0 50px;
 }
 
-.buscar {
-    padding-left: 15px;
+.barraDeBusca button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 nav {
@@ -90,11 +98,10 @@ a:hover {
 }
 
 .banner {
-    height: 464px;
+    height: 576px;
     background-image: url(img/Banner.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 h1 {
@@ -128,10 +135,10 @@ h1 {
     justify-content: flex-start;
     height: 100%;
     align-items: center;
-    padding-left: 425px;
 }
 
 .conteudoBanner {
+    padding-left: 150px;
     width: 191.17;
     height: 190.18;
     display: flex;
@@ -151,4 +158,137 @@ h1 {
 
 .container {
     max-width: 1200px;
+}
+
+.produtos {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+
+.top {
+    padding-top: 90px;
+}
+
+.mid {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.bottom {
+    padding-bottom: 90px;
+}
+
+footer {
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.itensFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.titlesFooter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #97C3FF;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.pColor {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.inscrever {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+}
+
+.aFooter {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:1230px) {
+    .grid {
+        width: 768px;
+    }
+}
+
+.email input[type='text'] {
+    width: 245px;
+    float: left;
+    border: none;
+    padding-left: 15px;
+    border-radius: 50px 0 0 50px;
+}
+
+.email button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: red;
+    color: white;
+}
+
+.login {
+    height: 900px;
+    background: linear-gradient(120deg, #52596E, #293045, #091C32, #4A6488, #223C5B);
+    background-size: 300%, 300%;
+    animation: colors 100s ease infinite;
+    display: flex;
+    align-items: center;
+}
+
+.moldura {
+    width: 386px;
+    height: 562px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+}
+
+.alinhamento-login {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
