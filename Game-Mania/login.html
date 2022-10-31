@@ -22,28 +22,36 @@
             <div class="icons">
                 <a href="index.html"><img src="img/Logomarca.svg" alt="Logomarca Game Mania"></a>
 
-                <forms>
+                <form action="">
                     <div class="barraDeBusca">
-                        <input type="text" placeholder="Buscar">
-                        <button>
-                            <img src="img/Lupa.svg">
-                        </button>
+                        <input id="buscar" type="text" placeholder="Buscar">
+                        <button onclick="buscarItens()"><img src="img/Lupa.svg"></button>
                     </div>
-                </forms>
+                </form>
 
-                <div class="icons2">
+                <div id="icons2" class="icons2">
                     <a href="login.html"><img class="usuario" src="img/Usuário.svg" alt="Login"></a>
-                    <a href="contatos.html"><img class="contatos" src="img/Contatos.svg" alt="Contatos"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="img/Facebook.svg"
+                    <a class="contato" href=""><img class="contatos" src="img/Contatos.svg" alt="Contatos"></a>
+                    <a class="facebook" href="" target="_blank"><img class="facebook" src="img/Facebook.svg"
                             alt="Facebook"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="img/Instagram.svg"
+                    <a class="instagram" href="" target="_blank"><img class="instagram" src="img/Instagram.svg"
                             alt="Instagram"></a>
-                    <a href="carrinho.html"><img class="carrinho" src="img/Carrinho.svg" alt="Carrinho"></a>
+                    <a href=""><img class="carrinho" src="img/Carrinho.svg" alt="Carrinho"></a>
                 </div>
 
+                <a onclick="showMenu(event)" href="" id="menu"> <img class="menu-hamburguer" src="img/menu.svg"
+                        alt="Ícone de menu em barras"></a>
             </div>
 
-            <nav>
+            <nav class="menu1">
+                <a href="categorias.html">Categorias</a>
+                <a href="lancamentos.html">Lançamentos</a>
+                <a href="promocoes.html">Promoções</a>
+                <a href="seminovos.html">Seminovos</a>
+                <a class="outlet" href="outlet.html">Outlet</a>
+            </nav>
+
+            <nav id="sub-menu" class="sub-menu">
                 <a href="categorias.html">Categorias</a>
                 <a href="lancamentos.html">Lançamentos</a>
                 <a href="promocoes.html">Promoções</a>
@@ -56,9 +64,18 @@
     <section class="login">
         <div class="grid alinhamento-login">
             <div class="moldura">
-                <div class="alinhamento">
-                    <img src="img/Login.svg">
+                <img src="img/Login.svg">
+                <div class="infos-login">
+                    <div class="linha"></div>
+                    Login
+                    <div class=" linha"></div>
                 </div>
+                <input class="e-mail" type="email" placeholder="E-mail">
+                <input class="senha" type="password" placeholder="Senha">
+                <div class="save">
+
+                </div>
+
             </div>
         </div>
     </section>
@@ -93,23 +110,23 @@
                         <p>Atendimento de Segunda a Sexta, das 08:00 as 18:00. </p>
                     </div>
                 </div>
+
+                <div id="redes-sociais" class="RedesSociais">
+                    <h1 class="titlesFooter">Redes Sociais</h1>
+                    <div class="redes">
+                        <img src="img/Facebook.svg">
+                        <img src="img/Instagram.svg">
+                    </div>
+                </div>
                 <div class="newsletter">
                     <p class="inscrever">Se inscreva em nossa newsletter <br>para ficar por dentro de novidades!</p>
-
                     <forms>
                         <div class="email">
-                            <input type="text" placeholder="Buscar">
-                            <button>
-                                Inscreva-se
-                            </button>
+                            <input id="cadastro" type="email" placeholder="Email">
+                            <button onclick="inscrever()">Inscreva-se </button>
                         </div>
                     </forms>
-
                 </div>
-            </div>
-
-        </div>
-
     </footer>
 </body>
 

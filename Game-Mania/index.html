@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Mania - Home</title>
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -22,28 +21,36 @@
             <div class="icons">
                 <a href="index.html"><img src="img/Logomarca.svg" alt="Logomarca Game Mania"></a>
 
-                <forms>
+                <form action="">
                     <div class="barraDeBusca">
-                        <input type="text" placeholder="Buscar">
-                        <button>
-                            <img src="img/Lupa.svg">
-                        </button>
+                        <input id="buscar" type="text" placeholder="Buscar">
+                        <button onclick="buscarItens()"><img src="img/Lupa.svg"></button>
                     </div>
-                </forms>
+                </form>
 
-                <div class="icons2">
+                <div id="icons2" class="icons2">
                     <a href="login.html"><img class="usuario" src="img/Usuário.svg" alt="Login"></a>
-                    <a href="contatos.html"><img class="contatos" src="img/Contatos.svg" alt="Contatos"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="img/Facebook.svg"
+                    <a class="contato" href=""><img class="contatos" src="img/Contatos.svg" alt="Contatos"></a>
+                    <a class="facebook" href="" target="_blank"><img class="facebook" src="img/Facebook.svg"
                             alt="Facebook"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="img/Instagram.svg"
+                    <a class="instagram" href="" target="_blank"><img class="instagram" src="img/Instagram.svg"
                             alt="Instagram"></a>
-                    <a href="carrinho.html"><img class="carrinho" src="img/Carrinho.svg" alt="Carrinho"></a>
+                    <a href=""><img class="carrinho" src="img/Carrinho.svg" alt="Carrinho"></a>
                 </div>
 
+                <a onclick="showMenu(event)" href="" id="menu"> <img class="menu-hamburguer" src="img/menu.svg"
+                        alt="Ícone de menu em barras"></a>
             </div>
 
-            <nav>
+            <nav class="menu1">
+                <a href="categorias.html">Categorias</a>
+                <a href="lancamentos.html">Lançamentos</a>
+                <a href="promocoes.html">Promoções</a>
+                <a href="seminovos.html">Seminovos</a>
+                <a class="outlet" href="outlet.html">Outlet</a>
+            </nav>
+
+            <nav id="sub-menu" class="sub-menu">
                 <a href="categorias.html">Categorias</a>
                 <a href="lancamentos.html">Lançamentos</a>
                 <a href="promocoes.html">Promoções</a>
@@ -76,34 +83,36 @@
     </section>
 
     <section class="grid container text-center">
-        <div class="row align-items-start">
-            <div class="col top">
-                <h1 class="produtos">PC Gamer</h1>
-                <a href=""><img src="img/pcgamer.svg" alt="Computador Gamer"></a>
+        <div produtos>
+            <div class="row align-items-start">
+                <div class="col top">
+                    <h1 class="produtos">PC Gamer</h1>
+                    <a href=""><img src="img/pcgamer.svg" alt="Computador Gamer"></a>
+                </div>
+                <div class="col top">
+                    <h1 class="produtos">Notebooks</h1>
+                    <a href=""><img src="img/notebook.svg" alt="Notebooks"></a>
+                </div>
             </div>
-            <div class="col top">
-                <h1 class="produtos">Notebooks</h1>
-                <a href=""><img src="img/notebook.svg" alt="Notebooks"></a>
+            <div class="row align-items-center">
+                <div class="col mid">
+                    <h1 class="produtos">Tablets</h1>
+                    <a href=""><img src="img/tablet.svg" alt="Tablets"></a>
+                </div>
+                <div class="col mid">
+                    <h1 class="produtos">Celulares</h1>
+                    <a href=""><img src="img/celulares.svg" alt="Celulares"></a>
+                </div>
             </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col mid">
-                <h1 class="produtos">Tablets</h1>
-                <a href=""><img src="img/tablet.svg" alt="Tablets"></a>
-            </div>
-            <div class="col mid">
-                <h1 class="produtos">Celulares</h1>
-                <a href=""><img src="img/celulares.svg" alt="Celulares"></a>
-            </div>
-        </div>
-        <div class="row align-items-end">
-            <div class="col bottom">
-                <h1 class="produtos">Videogames</h1>
-                <a href=""><img src="img/videogames.svg" alt="Videogames"></a>
-            </div>
-            <div class="col bottom">
-                <h1 class="produtos">Acessórios</h1>
-                <a href=""><img src="img/acessorios.svg" alt="Acessórios"></a>
+            <div class="row align-items-end">
+                <div class="col bottom">
+                    <h1 class="produtos">Videogames</h1>
+                    <a href=""><img src="img/videogames.svg" alt="Videogames"></a>
+                </div>
+                <div class="col bottom">
+                    <h1 class="produtos">Acessórios</h1>
+                    <a href=""><img src="img/acessorios.svg" alt="Acessórios"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -129,32 +138,47 @@
                 <div class="Atendimento">
                     <h1 class="titlesFooter">Atendimento</h1>
                     <div class="pColor">
-                        <img src="img/telefone.svg"> 1234-5678 <br>
-                        <img src="img/whatsapp.svg"> 99876-5432 <br>
-                        <img src="img/telegram.svg"> <a class=aFooter href="">Atendimento via Telegram</a> <br>
-                        <img src="img/email.svg"> <a class=aFooter href="">atendimento@email.com.br</a>
+                        <img class="footer-images" src="img/telefone.svg"> 1234-5678 <br>
+                        <img class="footer-images" src="img/whatsapp.svg"> 99876-5432 <br>
+                        <img class="footer-images" src="img/telegram.svg"> <a class=aFooter href="">Atendimento via
+                            Telegram</a> <br>
+                        <img class="footer-images" src="img/email.svg"> <a class=aFooter
+                            href="">atendimento@email.com.br</a>
                         <hr>
-                        <p>Atendimento de Segunda a Sexta, das 08:00 as 18:00. </p>
                     </div>
-                </div>
-                <div class="newsletter">
-                    <p class="inscrever">Se inscreva em nossa newsletter <br>para ficar por dentro de novidades!</p>
 
+                    <p>Atendimento de Segunda a Sexta, das 08:00 as 18:00. </p>
+                </div>
+                <div id="newsletter" class="newsletter">
+                    <p class="inscrever">Se inscreva em nossa newsletter <br>para ficar por dentro de novidades!</p>
                     <forms>
                         <div class="email">
-                            <input type="text" placeholder="Buscar">
-                            <button>
-                                Inscreva-se
-                            </button>
+                            <input id="cadastro" type="email" placeholder="Email">
+                            <button onclick="inscrever()">Inscreva-se </button>
                         </div>
                     </forms>
-
                 </div>
             </div>
 
+            <div id="redes-sociais" class="RedesSociais">
+                <h1 class="titlesFooter">Redes Sociais</h1>
+                <div class="redes">
+                    <img class="face" src="img/Facebook.svg">
+                    <img class="insta" src="img/Instagram.svg">
+                </div>
+                <div class="newsletter2">
+                    <p class="inscrever">Se inscreva em nossa newsletter <br>para ficar por dentro de novidades!</p>
+                    <forms>
+                        <div class="email">
+                            <input id="cadastro" type="email" placeholder="Email">
+                            <button onclick="inscrever()">Inscreva-se </button>
+                        </div>
+                    </forms>
+                </div>
+            </div>
         </div>
-
     </footer>
+
 </body>
 
 </html>

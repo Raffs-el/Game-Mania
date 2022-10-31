@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -34,8 +36,12 @@ header {
     height: 100%;
 }
 
+#fundo {
+    display: none;
+}
+
 .usuario {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .contatos {
@@ -225,13 +231,7 @@ footer {
     color: white;
 }
 
-@media screen and (max-width:1230px) {
-    .grid {
-        width: 768px;
-    }
-}
-
-.email input[type='text'] {
+.email input[type='email'] {
     width: 245px;
     float: left;
     border: none;
@@ -248,13 +248,34 @@ footer {
     color: white;
 }
 
+#redes-sociais {
+    display: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    size-adjust: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .login {
-    height: 900px;
+    height: 1000px;
     background: linear-gradient(120deg, #52596E, #293045, #091C32, #4A6488, #223C5B);
     background-size: 300%, 300%;
     animation: colors 100s ease infinite;
     display: flex;
     align-items: center;
+}
+
+.alinhamento-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .moldura {
@@ -266,17 +287,68 @@ footer {
     webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.alinhamento {
+.infos-login {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: white;
     display: flex;
+    align-items: center;
+    width: 180px;
     justify-content: center;
-    padding-top: 52px;
+    justify-content: space-between;
 }
 
-.alinhamento-login {
-    display: flex;
-    justify-content: center;
+.linha {
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    border-radius: 50px;
+}
+
+.e-mail {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px white;
+    border-style: solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.senha {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px white;
+    border-style: solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+#sub-menu {
+    display: none;
+}
+
+.newsletter2 {
+    display: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
 }
 
 @keyframes colors {
@@ -291,4 +363,318 @@ footer {
     100% {
         background-position: 0% 50%;
     }
+}
+
+@media screen and (max-width:1230px) {
+    .grid {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width:1054px) {
+    .grid {
+        width: 768px;
+    }
+
+    #newsletter {
+        display: none;
+    }
+
+    .newsletter2 {
+        display: inline-block;
+    }
+
+    .menu1 {
+        display: none;
+    }
+
+    #redes-sociais {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .inscrever {
+        text-align: center;
+    }
+
+    .insta {
+        width: 40px;
+    }
+
+    .face {
+        width: 40px;
+    }
+
+    .redes {
+        width: 375.34px;
+        justify-content: space-around;
+    }
+
+    #menu {
+        display: inline-block;
+
+    }
+
+    .contato {
+        display: none;
+    }
+
+    .facebook {
+        display: none;
+    }
+
+    .instagram {
+        display: none;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    header {
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .sub-menu {
+        position: absolute;
+        background-color: #091C32;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barraDeBusca input[type='text'] {
+        width: 250px;
+        float: left;
+        border: none;
+        padding-left: 15px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .barraDeBusca button {
+        border: none;
+        border-radius: 0 50px 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .icons {
+        position: relative;
+    }
+
+    .banner {
+        background-image: none;
+        background-color: black;
+        background-image: url(img/fundo.svg);
+    }
+
+    .posicionamentoBanner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudoBanner {
+        backdrop-filter: blur(2px);
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    footer {
+        height: 1250px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+
+    .logomarca {
+        width: 150px;
+    }
+
+    .itensFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .titlesFooter {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #97C3FF;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .pColor {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        color: white;
+        text-align: center;
+    }
+
+    .atendimento {
+        text-align: center;
+    }
+
+    .newsletter {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .inscrever {
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .aFooter {
+        text-decoration: none;
+        color: white;
+    }
+
+    .email input[type='email'] {
+        width: 245px;
+        float: left;
+        border: none;
+        padding-left: 15px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .email button {
+        border: none;
+        border-radius: 0 50px 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: red;
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+@media screen and (max-width:972px) {
+    .grid {
+        width: 768px;
+    }
+
+    .marcas {
+        display: none;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .grid {
+        width: 480px;
+    }
+
+    .barraDeBusca {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        justify-items: space-around;
+        align-items: center;
+    }
+
+    .menu-hamburguer {
+        width: auto;
+        height: auto;
+    }
+
+    .produtos {
+        width: 480px;
+        text-align: center;
+    }
+
+    footer {
+        height: 1250px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-images {
+        width: 20px;
+    }
+
+    .RedesSociais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .redes {
+        width: 375.34px;
+        justify-content: space-around;
+    }
+
+    .insta {
+        width: 40px;
+    }
+
+    .face {
+        width: 40px;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email input[type='email'] {
+        width: 245px;
+        float: left;
+        border: none;
+        padding-left: 15px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .email button {
+        border: none;
+        border-radius: 0 50px 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: red;
+        color: white;
+    }
+
+    .produtos {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        size-adjust: auto;
+    }
+
 }
