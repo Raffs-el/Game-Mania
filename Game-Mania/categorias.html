@@ -13,7 +13,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
         defer></script>
     <script src="js/jquery-3.6.1.js" defer></script>
-    <script src="js/script.js" defer> </script>
+    <script src="js/categorias.js" defer> </script>
 </head>
 
 <body>
@@ -45,79 +45,118 @@
 
             <nav class="menu1">
                 <a href="categorias.html">Categorias</a>
-                <a href="#">Lançamentos</a>
-                <a href="#">Promoções</a>
-                <a href="#">Seminovos</a>
-                <a class="outlet" href="#">Outlet</a>
+                <a href="lancamentos.html">Lançamentos</a>
+                <a href="promocoes.html">Promoções</a>
+                <a href="seminovos.html">Seminovos</a>
+                <a class="outlet" href="outlet.html">Outlet</a>
             </nav>
 
             <!-- Sub-menu -->
             <nav id="sub-menu" class="sub-menu">
                 <a href="categorias.html">Categorias</a>
-                <a href="#">Lançamentos</a>
-                <a href="#">Promoções</a>
-                <a href="#l">Seminovos</a>
-                <a class="outlet" href="#">Outlet</a>
+                <a href="lancamentos.html">Lançamentos</a>
+                <a href="promocoes.html">Promoções</a>
+                <a href="seminovos.html">Seminovos</a>
+                <a class="outlet" href="outlet.html">Outlet</a>
             </nav>
         </div>
     </header>
 
-    <section id="carrossel" class="banner banner-1">
-        <div class="grid posicionamentoBanner">
-            <div class="conteudoBanner">
-                <h1>Flash<br>Sale</h1>
-                <a class="shopNow" href="">Shop Now</a>
+    <section class="categorias">
+        <div class="grid">
+            <div class="titulo-categorias">
+                Categorias
             </div>
+
+            <div class="computadores reveal">
+                <img src="img/Categorias/PC.svg">
+                <div class="subitens-l">
+                    <a class="pc" href="#">
+                        <h2>Computadores</h2>
+                    </a>
+                    <h3>
+                        <ul>
+                            <li> Gamer</li>
+                            <li> Workstation</li>
+                            <li> Casa e Escritório</li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="Notebooks reveal">
+                <div class="subitens-r">
+                    <h2>Notebooks</h2>
+                    <h3>
+                        <ul>
+                            <li> Gamer</li>
+                            <li> Workstation</li>
+                            <li> Casa e Escritório</li>
+                        </ul>
+                    </h3>
+                </div>
+                <img src="img/Categorias/Notebooks.svg">
+            </div>
+
+            <div class="tablets reveal">
+                <img src="img/Categorias/Tablets.svg">
+                <div class="subitens-l1">
+                    <h2>Tablets</h2>
+                    <h3>
+                        <ul>
+                            <li> Apple</li>
+                            <li> Samsung</li>
+                            <li> Xiaomi</li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="celulares reveal">
+                <div class="subitens-r1">
+                    <h2>Celulares</h2>
+                    <h3>
+                        <ul>
+                            <li> Apple</li>
+                            <li> Xiaomi</li>
+                            <li> Samsung</li>
+                            <li> LG</li>
+                            <li> Motorola</li>
+                        </ul>
+                    </h3>
+                </div>
+                <img src="img/Categorias/Celulares.svg">
+            </div>
+
+            <div class="videogames reveal">
+                <img src="img/Categorias/Videogames.svg">
+                <div class="subitens-l2">
+                    <h2>Videogames</h2>
+                    <h3>
+                        <ul>
+                            <li> Sony</li>
+                            <li> Nintendo</li>
+                            <li> Microsoft</li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="acessorios reveal">
+                <div class="subitens-r2">
+                    <h2>Acessórios</h2>
+                </div>
+                <img src="img/Categorias/Acessorios.svg">
+            </div>
+
+
         </div>
     </section>
 
-    <section class="marcas">
-        <div class="container d-flex justify-content-between align-items-center posicionamento-marcas">
-            <a href=""><img src="img/apple.svg" alt="Logo da Apple"></a>
-            <a href=""><img src="img/corsair.svg" alt="Logo da Corsair"></a>
-            <a href=""><img src="img/dell.svg" alt="Logo da Dell"></a>
-            <a href=""><img src="img/microsoft.svg" alt="Logo da Microsoft"></a>
-            <a href=""><img src="img/nintendo.svg" alt="Logo da Nintendo"></a>
-            <a href=""><img src="img/razer.svg" alt="Logo da Razer"></a>
-            <a href=""><img src="img/samsung.svg" alt="Logo da Samsung"></a>
-            <a href=""><img src="img/sony.svg" alt="Logo da Sony"></a>
-        </div>
-    </section>
 
-    <section class="grid container text-center">
-        <div produtos>
-            <div class="row align-items-start">
-                <div class="col top">
-                    <h1 class="produtos">PC Gamer</h1>
-                    <a href=""><img src="img/pcgamer.svg" alt="Computador Gamer"></a>
-                </div>
-                <div class="col top">
-                    <h1 class="produtos">Notebooks</h1>
-                    <a href=""><img src="img/notebook.svg" alt="Notebooks"></a>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col mid">
-                    <h1 class="produtos">Tablets</h1>
-                    <a href=""><img src="img/tablet.svg" alt="Tablets"></a>
-                </div>
-                <div class="col mid">
-                    <h1 class="produtos">Celulares</h1>
-                    <a href=""><img src="img/celulares.svg" alt="Celulares"></a>
-                </div>
-            </div>
-            <div class="row align-items-end">
-                <div class="col bottom">
-                    <h1 class="produtos">Videogames</h1>
-                    <a href=""><img src="img/videogames.svg" alt="Videogames"></a>
-                </div>
-                <div class="col bottom">
-                    <h1 class="produtos">Acessórios</h1>
-                    <a href=""><img src="img/acessorios.svg" alt="Acessórios"></a>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
 
     <footer>
         <div class="grid">
