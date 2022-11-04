@@ -26,6 +26,10 @@ $(document).ready(function () {
         }
     }
 
+    $("#enviar").click(function () {
+        alert("Logado com sucesso!")
+    })
+
 })
 
 
