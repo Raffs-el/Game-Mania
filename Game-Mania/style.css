@@ -439,6 +439,81 @@ p {
 }
 
 
+.pc-gamer {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pc-gamer:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.notebooks {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.notebooks:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.tablet {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.tablet:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.celular {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.celular:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+
+.videogame {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.videogame:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.acessorio {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.acessorio:hover {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+
+
 /*Categorias*/
 
 .categorias {
