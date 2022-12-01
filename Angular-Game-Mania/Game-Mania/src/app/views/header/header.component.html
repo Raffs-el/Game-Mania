@@ -1,0 +1,52 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+defer></script>
+<script src="assets/js/jquery-3.6.1.js" defer></script>
+<script src="assets/js/script.js" defer> </script>
+
+<header>
+    <div class="grid Icons">
+        <div class="icons">
+            <a href="index.html"><img src="assets/img/Logomarca.svg" alt="Logomarca Game Mania"></a>
+
+            <form action="">
+                <div class="barraDeBusca">
+                    <input id="buscar" type="text" placeholder="Buscar">
+                    <button onclick="buscarItens()"><img src="assets/img/Lupa.svg"></button>
+                </div>
+            </form>
+
+            <div id="icons2" class="icons2">
+                <a href="login"><img class="usuario" src="assets/img/Usuário.svg" alt="Login"></a>
+                <a class="contato" href=""><img class="contatos" src="assets/img/Contatos.svg" alt="Contatos"></a>
+                <a class="facebook" href="" target="_blank"><img class="facebook" src="assets/img/Facebook.svg"
+                        alt="Facebook"></a>
+                <a class="instagram" href="" target="_blank"><img class="instagram" src="assets/img/Instagram.svg"
+                        alt="Instagram"></a>
+                <a href=""><img class="carrinho" src="assets/img/Carrinho.svg" alt="Carrinho"></a>
+            </div>
+
+            <a onclick="showMenu(event)" href="" id="menu"> <img class="menu-hamburguer" src="assets/img/menu.svg"
+                    alt="Ícone de menu em barras"></a>
+        </div>
+
+        <nav class="menu1">
+            <a href="categorias">Categorias</a>
+            <a href="#">Lançamentos</a>
+            <a href="#">Promoções</a>
+            <a href="#">Seminovos</a>
+            <a class="outlet" href="#">Outlet</a>
+        </nav>
+
+        <!-- Sub-menu -->
+        <nav id="sub-menu" class="sub-menu">
+            <a href="categorias.html">Categorias</a>
+            <a href="#">Lançamentos</a>
+            <a href="#">Promoções</a>
+            <a href="#l">Seminovos</a>
+            <a class="outlet" href="#">Outlet</a>
+        </nav>
+    </div>
+</header>

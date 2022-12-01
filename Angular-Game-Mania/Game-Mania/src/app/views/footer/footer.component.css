@@ -1,0 +1,283 @@
+footer {
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.itensFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.titlesFooter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #97C3FF;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.pColor {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.inscrever {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+}
+
+.aFooter {
+    text-decoration: none;
+    color: white;
+}
+
+.email input[type='email'] {
+    width: 245px;
+    float: left;
+    border: none;
+    padding-left: 15px;
+    border-radius: 50px 0 0 50px;
+    height: 24px;
+}
+
+.email button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: red;
+    color: white;
+    height: 24px;
+}
+
+#redes-sociais {
+    display: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    size-adjust: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+@media screen and (max-width:1230px) {
+    .grid {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width:1054px) {
+    .grid {
+        width: 768px;
+    }
+
+    #newsletter {
+        display: none;
+    }
+
+    .newsletter2 {
+        display: inline-block;
+    }
+
+    .menu1 {
+        display: none;
+    }
+
+    #redes-sociais {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .inscrever {
+        text-align: center;
+    }
+
+    .insta {
+        width: 40px;
+    }
+
+    .face {
+        width: 40px;
+    }
+
+    .redes {
+        width: 375.34px;
+        justify-content: space-around;
+    }
+
+
+    footer {
+        height: 1250px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+
+    .logomarca {
+        width: 150px;
+    }
+
+    .itensFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .titlesFooter {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #97C3FF;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .pColor {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        color: white;
+        text-align: center;
+    }
+
+    .atendimento {
+        text-align: center;
+    }
+
+    .newsletter {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .inscrever {
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .aFooter {
+        text-decoration: none;
+        color: white;
+    }
+
+    .email input[type='email'] {
+        width: 245px;
+        float: left;
+        border: none;
+        padding-left: 15px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .email button {
+        border: none;
+        border-radius: 0 50px 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: red;
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+@media screen and (max-width:972px) {
+    .grid {
+        width: 768px;
+    }
+
+}
+
+@media screen and (max-width:790px) {
+    .grid {
+        width: 480px;
+    }
+
+    footer {
+        height: 1250px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-images {
+        width: 20px;
+    }
+
+    .RedesSociais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .redes {
+        width: 375.34px;
+        justify-content: space-around;
+    }
+
+    .insta {
+        width: 40px;
+    }
+
+    .face {
+        width: 40px;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email input[type='email'] {
+        width: 245px;
+        float: left;
+        border: none;
+        padding-left: 15px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .email button {
+        border: none;
+        border-radius: 0 50px 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: red;
+        color: white;
+    }
+
+}

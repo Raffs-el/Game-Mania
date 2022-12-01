@@ -1,0 +1,37 @@
+<section class="login">
+    <div class="grid alinhamento-login">
+        <div class="moldura">
+            <img src="assets/img/Login.svg">
+            <div class="infos-login">
+                <div class="linha"></div>
+                Login
+                <div class=" linha"></div>
+            </div>
+            <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <input style="color: white" class="e-mail" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email">
+                <input style="color: white" class="senha" type="password" placeholder="Senha" [(ngModel)]="loginModel.password">
+                    <form class="lembrar-senha">
+                        <input type="checkbox" class="lembrar"> Lembrar-me
+                    </form>
+                <a href="" class="esqueci">Esqueci minha senha</a>
+                <input id="enviar" type="submit" placeholder="enviar" class="enviar">
+            </form>
+
+            <div class="login-com">
+                <div class="linha"></div>
+                Login com
+                <div class=" linha"></div>
+            </div>
+            <div class="icones-login">
+                <a href=""><img src="assets/img/twitter.svg" alt="Twitter"> </a>
+                <a href=""><img src="assets/img/facebook1.svg" alt="Facebook"> </a>
+                <a href=""><img src="assets/img/Google.svg" alt="Google"> </a>
+            </div>
+            <div class="criar-conta">
+                Ainda não é cadastrado? <br>
+                <a href="" class="criar">Criar conta</a>
+            </div>
+
+        </div>
+    </div>
+</section>
