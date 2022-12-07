@@ -1,10 +1,11 @@
 .login {
-    height: 1000px;
+    height: 860px;
     background: linear-gradient(120deg, #52596E, #293045, #091C32, #4A6488, #223C5B);
     background-size: 300%, 300%;
     animation: colors 100s ease infinite;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .alinhamento-login {

@@ -5,15 +5,15 @@
 }
 
 .banner-1 {
-    background-image: url(/assets/img/Banner.svg);
+    background-image: url(/assets/img/Home/Banner/Banner.svg);
 }
 
 .banner-2 {
-    background-image: url(/assets/img/Banner.2.svg);
+    background-image: url(/assets/img/Home/Banner/Banner.2.svg);
 }
 
 .banner-3 {
-    background-image: url(/assets/img/Banner.3.svg);
+    background-image: url(/assets/img/Home/Banner/Banner.3.svg);
 }
 
 
@@ -48,15 +48,17 @@ h1 {
     justify-content: flex-start;
     height: 100%;
     align-items: center;
+    justify-items: center;
 }
 
 .conteudoBanner {
-    padding-left: 150px;
-    width: 191.17;
+    width: 100%;
     height: 190.18;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-right: 500px;
 }
 
 .marcas {
@@ -279,18 +281,21 @@ h1 {
 
     .banner {
         background-color: black;
-        background-image: url(/assets/img/fundo.svg);
+        background-image: url(/assets/img/Home/Banner/fundo.svg);
     }
 
     .posicionamentoBanner {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .conteudoBanner {
         backdrop-filter: blur(2px);
-        width: 100%;
-        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+        padding-right: 0px;
+        align-items: center;
     }
 
     p {

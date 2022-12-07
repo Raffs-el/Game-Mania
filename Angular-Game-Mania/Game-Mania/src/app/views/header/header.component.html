@@ -1,52 +1,74 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
-defer></script>
 <script src="assets/js/jquery-3.6.1.js" defer></script>
 <script src="assets/js/script.js" defer> </script>
 
-<header>
-    <div class="grid Icons">
+<section class="header">
+    <div class="grid ">
         <div class="icons">
-            <a href="index.html"><img src="assets/img/Logomarca.svg" alt="Logomarca Game Mania"></a>
-
+            <a href="index.html"><img src="assets/img/Header/Logomarca.svg" alt="Logomarca Game Mania"></a>
+    
             <form action="">
-                <div class="barraDeBusca">
+                <div class="search-box">
                     <input id="buscar" type="text" placeholder="Buscar">
-                    <button onclick="buscarItens()"><img src="assets/img/Lupa.svg"></button>
+                    <button (click)="buscarItens()"><img src="assets/img/Header/Lupa.svg" alt="Product search"></button>
                 </div>
             </form>
+         <div class="icons-2">
+            <a href="login"><img src="assets/img/Header/Usuário.svg" alt="Login"></a>
+            <a class="contato" href=""><img src="assets/img/Header/Contatos.svg" alt="Contacts"></a>
+            <a class="facebook" href="" target="_blank"><img src="assets/img/Header/Facebook.svg" alt="Facebook"></a>
+            <a class="instagram" href="" target="_blank"><img src="assets/img/Header/Instagram.svg" alt="Instagram"></a>
+            <a href=""><img src="assets/img/Header/Carrinho.svg" alt="Shopping Cart"></a>
 
-            <div id="icons2" class="icons2">
-                <a href="login"><img class="usuario" src="assets/img/Usuário.svg" alt="Login"></a>
-                <a class="contato" href=""><img class="contatos" src="assets/img/Contatos.svg" alt="Contatos"></a>
-                <a class="facebook" href="" target="_blank"><img class="facebook" src="assets/img/Facebook.svg"
-                        alt="Facebook"></a>
-                <a class="instagram" href="" target="_blank"><img class="instagram" src="assets/img/Instagram.svg"
-                        alt="Instagram"></a>
-                <a href=""><img class="carrinho" src="assets/img/Carrinho.svg" alt="Carrinho"></a>
-            </div>
+        
+            <a onclick="showMenu(event)" href="" id="menu"> <img class="menu-hamburguer" src="assets/img/Header/menu.svg" alt="Menu Bar"></a>
 
-            <a onclick="showMenu(event)" href="" id="menu"> <img class="menu-hamburguer" src="assets/img/menu.svg"
-                    alt="Ícone de menu em barras"></a>
+         </div>
         </div>
 
-        <nav class="menu1">
-            <a href="categorias">Categorias</a>
+         
+        <nav class="menu-nav">
+            <a href="#" [mat-menu-trigger-for]="categorias">Categorias</a>
+            <mat-menu #categorias>
+                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="computadores">Computadores</button>
+                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="notebooks">Notebooks</button>
+                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="tablets">Tablets</button>
+                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="celulares">Celulares</button>
+                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="videogames">Videogames</button>
+                <button class="categorias" mat-menu-item>Acessórios</button>
+            </mat-menu>
+            <mat-menu #computadores>
+                <button class="categorias" mat-menu-item>Gamer</button>
+                <button class="categorias" mat-menu-item>Workstation</button>
+                <button class="categorias" mat-menu-item>Casa e Escritório</button>
+            </mat-menu>
+            <mat-menu #notebooks>
+                <button class="categorias" mat-menu-item>Gamer</button>
+                <button class="categorias" mat-menu-item>Workstation</button>
+                <button class="categorias" mat-menu-item>Casa e Escritório</button>
+            </mat-menu>
+            <mat-menu #tablets>
+                <button class="categorias" mat-menu-item>Apple</button>
+                <button class="categorias" mat-menu-item>Samsung</button>
+                <button class="categorias" mat-menu-item>Xiaomi</button>
+            </mat-menu>
+            <mat-menu #celulares>
+                <button class="categorias" mat-menu-item>Apple</button>
+                <button class="categorias" mat-menu-item>Samsung</button>
+                <button class="categorias" mat-menu-item>Xiaomi</button>
+                <button class="categorias" mat-menu-item>Motorola</button>
+                <button class="categorias" mat-menu-item>LG</button>
+            </mat-menu>
+            <mat-menu #videogames>
+                <button class="categorias" mat-menu-item>Sony</button>
+                <button class="categorias" mat-menu-item>Nintendo</button>
+                <button class="categorias" mat-menu-item>Microsoft</button>
+            </mat-menu>
+
             <a href="#">Lançamentos</a>
             <a href="#">Promoções</a>
             <a href="#">Seminovos</a>
             <a class="outlet" href="#">Outlet</a>
         </nav>
 
-        <!-- Sub-menu -->
-        <nav id="sub-menu" class="sub-menu">
-            <a href="categorias.html">Categorias</a>
-            <a href="#">Lançamentos</a>
-            <a href="#">Promoções</a>
-            <a href="#l">Seminovos</a>
-            <a class="outlet" href="#">Outlet</a>
-        </nav>
     </div>
-</header>
+</section>

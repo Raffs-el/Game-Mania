@@ -1,6 +1,6 @@
-header {
+.header {
     background-color: #091C32;
-    height: 105px;
+    height: 110px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -8,65 +8,50 @@ header {
 }
 
 .icons {
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    height: 100%;
+    width: 1200px;
 }
 
-#fundo {
-    display: none;
-}
-
-.usuario {
-    padding-right: 10px;
-}
-
-.contatos {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.facebook {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.instagram {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.carrinho {
-    padding-left: 5px;
-}
-
-.barraDeBusca input[type='text'] {
+.search-box input[type='text'] {
     width: 464px;
     float: left;
     border: none;
     padding-left: 15px;
     border-radius: 50px 0 0 50px;
-    height: 24px;
+    height: 22px;
 }
 
-.barraDeBusca button {
+.search-box button {
     border: none;
     border-radius: 0 50px 50px 0;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-nav {
-    font-family: Work Sans;
+.icons-2 {
+    width: 205px;
+
     display: flex;
-    align-items: center;
+    justify-content: center;
     justify-content: space-between;
 }
 
-nav a {
+.menu-nav {
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    font-family: Work Sans;
+}
+
+a {
     text-decoration: none;
     color: #bcbcbc;
     transition: all .10s linear;
@@ -88,12 +73,16 @@ a:hover {
     display: none;
 }
 
-#sub-menu {
-    display: none;
+.categorias {
+    font-family: Work Sans;
 }
 
 @media screen and (max-width:1230px) {
     .grid {
+        width: 1024px;
+    }
+
+    .icons {
         width: 1024px;
     }
 }
@@ -103,50 +92,12 @@ a:hover {
         width: 768px;
     }
 
-    #newsletter {
-        display: none;
+    .icons {
+        width: 768px;
     }
 
-    .newsletter2 {
-        display: inline-block;
-    }
-
-    .menu1 {
-        display: none;
-    }
-
-    #redes-sociais {
-        display: inline-block;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-    }
-
-    .inscrever {
-        text-align: center;
-    }
-
-    .insta {
-        width: 40px;
-    }
-
-    .face {
-        width: 40px;
-    }
-
-    .redes {
-        width: 375.34px;
-        justify-content: space-around;
-    }
-
-    #menu {
-        display: inline-block;
-    }
-
-    .contato {
-        display: none;
+    .icons-2 {
+        width: 120px;
     }
 
     .facebook {
@@ -156,64 +107,18 @@ a:hover {
     .instagram {
         display: none;
     }
-
-    .icons {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        justify-content: space-around;
+    
+    .search-box input[type='text'] {
+        width: 200px;
     }
 
-    header {
-        height: 65px;
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        position: relative;
-
-    }
-
-    .sub-menu {
-        position: absolute;
-        background-color: #091C32;
-        top: 65px;
-        left: 0;
-        width: 100%;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .barraDeBusca input[type='text'] {
-        width: 250px;
-        float: left;
-        border: none;
-        padding-left: 15px;
-        border-radius: 50px 0 0 50px;
-    }
-
-    .barraDeBusca button {
-        border: none;
-        border-radius: 0 50px 50px 0;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .icons {
-        position: relative;
-    }
-
-    p {
-        color: white;
-    }
 }
 
 @media screen and (max-width:972px) {
     .grid {
         width: 768px;
     }
-
+    
 }
 
 @media screen and (max-width:790px) {
@@ -221,27 +126,28 @@ a:hover {
         width: 480px;
     }
 
-    .barraDeBusca {
+    .header {
+    height: 80px;
+    }
+
+    .icons {
+        width: 480px;
+    }
+    
+    .contato {
         display: none;
     }
 
-    nav {
+    .search-box {
         display: none;
     }
 
-
-    header {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        justify-items: space-around;
-        align-items: center;
+    #menu {
+        display: inline-block;
     }
 
-    .menu-hamburguer {
-        width: auto;
-        height: auto;
+    .menu-nav {
+        display: none;
     }
-
 
 }
