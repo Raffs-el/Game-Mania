@@ -1,0 +1,126 @@
+.categorias {
+    height: 4389px;
+    background: linear-gradient(180deg, #091C32 0%, #0B1E32 6.25%, #0E2133 16.22%, #112333 23.96%, #132534 31.79%, #162834 40.1%, #192A34 47.8%, #1B2C35 54.69%, #1D2E35 62.69%, #203135 71.35%, #243436 82.77%, #293937 100%);
+}
+
+.titulo-categorias {
+    height: 945px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 128px;
+    color: #D2E9E3;
+
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 82px;
+    font-weight: 400;
+    color: white;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: white;
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+.computadores {
+    display: flex;
+    justify-content: center;
+}
+
+.subitens-l {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Notebooks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 200px;
+}
+
+.subitens-r {
+    padding-right: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tablets {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 200px;
+}
+
+.subitens-l1 {
+    padding-left: 100px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.celulares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 200px;
+}
+
+.subitens-r1 {
+    padding-left: 100px;
+    padding-right: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videogames {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 200px;
+}
+
+
+.subitens-l2 {
+    padding-left: 70px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.acessorios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 200px;
+}
+
+.subitens-r2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.pc {
+    text-decoration: none;
+}

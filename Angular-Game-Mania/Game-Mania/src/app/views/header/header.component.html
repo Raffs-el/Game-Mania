@@ -29,12 +29,13 @@
         <nav class="menu-nav">
             <a href="#" [mat-menu-trigger-for]="categorias">Categorias</a>
             <mat-menu #categorias>
-                <button class="categorias" mat-menu-item [mat-menu-trigger-for]="computadores">Computadores</button>
+                <a href="computadores"><button class="categorias" mat-menu-item [mat-menu-trigger-for]="computadores">Computadores</button></a>
                 <button class="categorias" mat-menu-item [mat-menu-trigger-for]="notebooks">Notebooks</button>
                 <button class="categorias" mat-menu-item [mat-menu-trigger-for]="tablets">Tablets</button>
                 <button class="categorias" mat-menu-item [mat-menu-trigger-for]="celulares">Celulares</button>
                 <button class="categorias" mat-menu-item [mat-menu-trigger-for]="videogames">Videogames</button>
                 <button class="categorias" mat-menu-item>Acessórios</button>
+                <a href="categorias"><button class="categorias" mat-menu-item>Ver tudo</button></a>
             </mat-menu>
             <mat-menu #computadores>
                 <button class="categorias" mat-menu-item>Gamer</button>
@@ -69,6 +70,5 @@
             <a href="#">Seminovos</a>
             <a class="outlet" href="#">Outlet</a>
         </nav>
-
     </div>
 </section>
