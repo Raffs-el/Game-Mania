@@ -1,0 +1,40 @@
+{
+  "promocoes": [
+    {
+      "id": 1,
+      "imagem": "assets/img/Promocoes/50.jpg",
+      "titulo": "Promoção 1",
+      "descricao": "Produto 1"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/Promocoes/Amazon.jpg",
+      "titulo": "Promoção 2",
+      "descricao": "Produto 2"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/Promocoes/ps5.jpg",
+      "titulo": "Promoção 3",
+      "descricao": "Produto 3"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/Promocoes/notebook.jpg",
+      "titulo": "Promoção 4",
+      "descricao": "Produto 4"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/Promocoes/sale.jpg",
+      "titulo": "Promoção 5",
+      "descricao": "Produto 5"
+    },
+    {
+      "id": 6,
+      "imagem": "assets/img/Promocoes/smart.jpg",
+      "titulo": "Promoção 6",
+      "descricao": "Produto 6"
+    }
+  ]
+}

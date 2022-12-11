@@ -6,6 +6,7 @@ import { Computadores2Component } from './views/computadores/computadores2/compu
 import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
 import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
+import { PromocoesComponent } from './views/promocoes/promocoes.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: "categorias", component: CategoriasComponent},
   { path: "computadores", component: ComputadoresComponent},
   { path: "computadores2", component: Computadores2Component},
-  { path: "computadores3", component: Computadores3Component}
+  { path: "computadores3", component: Computadores3Component},
+  { path: "promocoes", component: PromocoesComponent}
 ];
 
 @NgModule({

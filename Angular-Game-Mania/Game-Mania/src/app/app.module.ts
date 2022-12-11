@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CategoriasComponent } from './views/categorias/categorias.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
 import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
+import { PromocoesComponent } from './views/promocoes/promocoes.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { Computadores3Component } from './views/computadores/computadores3/compu
     LoginComponent,
     CategoriasComponent,
     ComputadoresComponent,
-    Computadores3Component
+    Computadores3Component,
+    PromocoesComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,7 @@ import { Computadores3Component } from './views/computadores/computadores3/compu
     MatIconModule,
     MatCheckboxModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
