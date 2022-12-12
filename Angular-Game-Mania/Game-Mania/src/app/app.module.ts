@@ -17,6 +17,9 @@ import { CategoriasComponent } from './views/categorias/categorias.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
 import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
 import { PromocoesComponent } from './views/promocoes/promocoes.component';
+import { NotebooksComponent } from './views/notebooks/notebooks.component';
+import { Notebooks2Component } from './views/notebooks/notebooks2/notebooks2.component';
+import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.component';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { PromocoesComponent } from './views/promocoes/promocoes.component';
     CategoriasComponent,
     ComputadoresComponent,
     Computadores3Component,
-    PromocoesComponent
+    PromocoesComponent,
+    NotebooksComponent,
+    Notebooks2Component,
+    Notebooks3Component
   ],
   imports: [
     BrowserModule,

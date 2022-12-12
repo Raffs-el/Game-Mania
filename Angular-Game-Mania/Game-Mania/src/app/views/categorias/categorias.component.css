@@ -11,6 +11,7 @@
     justify-content: center;
 
     font-family: 'Oswald', sans-serif;
+    font-weight: 400px;
     font-size: 128px;
     color: #D2E9E3;
 
@@ -41,6 +42,10 @@ li {
 .computadores {
     display: flex;
     justify-content: center;
+}
+
+.notebooks {
+    text-decoration: none;
 }
 
 .subitens-l {
