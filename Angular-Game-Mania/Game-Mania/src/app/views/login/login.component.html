@@ -7,13 +7,23 @@
                 Login
                 <div class=" linha"></div>
             </div>
-            <input style="color: white" class="e-mail" type="email" placeholder="E-mail">
-            <input style="color: white" class="senha" type="password" placeholder="Senha">
-            <form class="lembrar-senha">
+
+            <form  class="loginInput" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <div class="email">
+                    <input style="color: white" class="e-mail" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email" name="email">
+                 </div>
+                 <div>
+                    <input style="color: white" class="senha" type="password" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
+                </div>
+                 <div class="lembrar-senha">
                 <input type="checkbox" class="lembrar"> Lembrar-me
+            </div>
+            
+            <input (click)="enviar()" id="enviar" type="submit" value="enviar" class="enviar">
             </form>
             <a href="" class="esqueci">Esqueci minha senha</a>
-            <input (click)="enviar()" id="enviar" type="submit" placeholder="enviar" class="enviar">
+            <p id="mensagem" *ngIf="mensagem !='' ">{{ mensagem }}</p>
+            
             <div class="login-com">
                 <div class="linha"></div>
                 Login com
@@ -28,7 +38,8 @@
                 Ainda não é cadastrado? <br>
                 <a href="" class="criar">Criar conta</a>
             </div>
-
+            
         </div>
     </div>
+
 </section>

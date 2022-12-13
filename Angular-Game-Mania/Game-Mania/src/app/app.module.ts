@@ -22,6 +22,7 @@ import { Notebooks2Component } from './views/notebooks/notebooks2/notebooks2.com
 import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.component';
 import { TabletsComponent } from './views/tablets/tablets.component';
 import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
+import { PerfilComponent } from './views/perfil/perfil.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
     Notebooks2Component,
     Notebooks3Component,
     TabletsComponent,
-    Tablets2Component
+    Tablets2Component,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

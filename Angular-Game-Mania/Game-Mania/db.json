@@ -1,4 +1,18 @@
 {
+  "users": [
+    {
+      "email": "rafael@email.com",
+      "password": "1234",
+      "nome": "Rafael",
+      "id": "1"
+    },
+    {
+      "email": "rafa@email.com",
+      "password": "$2a$10$bladOUYdm8lhWb40DGrhxODcNqW8T5xhpqWmjLAOYyjWi14wRfwry",
+      "nome": "Rafa",
+      "id": "WuoKWWB"
+    }
+  ],
   "promocoes": [
     {
       "id": 1,

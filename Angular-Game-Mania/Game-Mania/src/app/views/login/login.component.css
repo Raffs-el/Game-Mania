@@ -8,6 +8,17 @@
     justify-content: center;
 }
 
+#mensagem {
+    color: red;
+    margin: 0px;
+}
+
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .alinhamento-login {
     display: flex;
     align-items: center;
@@ -38,6 +49,7 @@
     width: 180px;
     justify-content: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .linha {
@@ -86,6 +98,7 @@
     font-style: italic;
     font-size: 12px;
     text-decoration: none;
+    text-align: center;
 }
 
 .enviar {
@@ -95,11 +108,12 @@
     width: 180px;
     border-radius: 5px;
     border: 0px;
+    margin-top: 10px;
 }
 
 
 .login-com {
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 100;
@@ -121,7 +135,7 @@
 }
 
 .criar-conta {
-    padding-top: 60px;
+    padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 12px;
