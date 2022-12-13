@@ -10,6 +10,8 @@ import { NotebooksComponent } from './views/notebooks/notebooks.component';
 import { Notebooks2Component } from './views/notebooks/notebooks2/notebooks2.component';
 import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.component';
 import { PromocoesComponent } from './views/promocoes/promocoes.component';
+import { TabletsComponent } from './views/tablets/tablets.component';
+import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -21,7 +23,10 @@ const routes: Routes = [
   { path: "promocoes", component: PromocoesComponent},
   { path: "notebooks", component: NotebooksComponent},
   { path: "notebooks2", component: Notebooks2Component},
-  { path: "notebooks3", component: Notebooks3Component}
+  { path: "notebooks3", component: Notebooks3Component},
+  { path: "tablets", component: TabletsComponent},
+  { path: "tablets2", component: Tablets2Component}
+
 ];
 
 @NgModule({

@@ -20,6 +20,8 @@ import { PromocoesComponent } from './views/promocoes/promocoes.component';
 import { NotebooksComponent } from './views/notebooks/notebooks.component';
 import { Notebooks2Component } from './views/notebooks/notebooks2/notebooks2.component';
 import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.component';
+import { TabletsComponent } from './views/tablets/tablets.component';
+import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.com
     PromocoesComponent,
     NotebooksComponent,
     Notebooks2Component,
-    Notebooks3Component
+    Notebooks3Component,
+    TabletsComponent,
+    Tablets2Component
   ],
   imports: [
     BrowserModule,

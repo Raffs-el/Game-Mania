@@ -27,26 +27,7 @@
     
 }
 
-.icone-filtro {
-    height: 211px;
-    width: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.filtro {
-    width: 34px;
-    height: 34px;
-    border-radius: 60px;
-
-    background-color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .produtos-computadores-1 {
     display: flex;

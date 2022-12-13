@@ -1,13 +1,13 @@
-.titulo-computadores {
+.titulo-tablets {
     height: 910px;
-    background-image: url(/assets/img/Computadores/Fundo-computadores.svg);
+    background-image: url(/assets/img/Tablets/Tablets-capa.svg);
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Computadores {
+.tablets {
     text-transform: uppercase;
 
     font-family: 'Oswald', sans-serif;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-.conteudo-computadores {
+.conteudo-tablets {
     background: linear-gradient(180deg, #091C32 0%, #0B1E32 6.25%, #0E2133 16.22%, #112333 23.96%, #132534 31.79%, #162834 40.1%, #192A34 47.8%, #1B2C35 54.69%, #1D2E35 62.69%, #203135 71.35%, #243436 82.77%, #293937 100%);
     height: 2412px;
     display: flex;
@@ -28,8 +28,7 @@
 }
 
 
-
-.produtos-computadores-1 {
+.produtos-tablets-1 {
     display: flex;
     width: 1200px;
     justify-content: center;
@@ -38,7 +37,7 @@
     padding-bottom: 88px;
 }
 
-.produtos-computadores-2 {
+.produtos-tablets-2 {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -47,7 +46,7 @@
     padding-bottom: 88px;
 }
 
-.produtos-computadores-3 {
+.produtos-tablets-3 {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -126,16 +125,9 @@
     height: 10px;
     border-radius: 100%;
 
-    background-color: white;
-}
-
-.icone-3 {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-
     background-color: black;
 }
+
 
 .description {
     font-family: 'Oswald', sans-serif;
