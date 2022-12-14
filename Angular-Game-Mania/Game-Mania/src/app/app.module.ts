@@ -23,6 +23,7 @@ import { Notebooks3Component } from './views/notebooks/notebooks3/notebooks3.com
 import { TabletsComponent } from './views/tablets/tablets.component';
 import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
+import { CelularesComponent } from './views/celulares/celulares.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { PerfilComponent } from './views/perfil/perfil.component';
     Notebooks3Component,
     TabletsComponent,
     Tablets2Component,
-    PerfilComponent
+    PerfilComponent,
+    CelularesComponent
   ],
   imports: [
     BrowserModule,
