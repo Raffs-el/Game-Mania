@@ -14,6 +14,7 @@ import { PerfilComponent } from './views/perfil/perfil.component';
 import { PromocoesComponent } from './views/promocoes/promocoes.component';
 import { TabletsComponent } from './views/tablets/tablets.component';
 import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
+import { VideogamesComponent } from './views/videogames/videogames.component';
 
 
 const routes: Routes = [
@@ -30,7 +31,8 @@ const routes: Routes = [
   { path: "tablets", component: TabletsComponent},
   { path: "tablets2", component: Tablets2Component},
   { path: "perfil", component: PerfilComponent},
-  { path: "celulares", component: CelularesComponent}
+  { path: "celulares", component: CelularesComponent},
+  { path: "videogames", component: VideogamesComponent}
 
 ];
 
