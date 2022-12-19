@@ -25,6 +25,7 @@ enviar () {
   alert("Verificando Login")
 }
 
+/*
 onSubmit() {
   console.log(this.loginModel)
 
@@ -36,5 +37,36 @@ onSubmit() {
     this.mensagem = respostaErro.error
   }
   )
+}
+*/
+
+onSubmit() {
+  console.log(this.loginModel)
+
+  let erroEncontrado = 0;
+
+  const listPalavras: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", "insert ", "exec ", "\"", "\'", "--", "#", "*", ";"]
+
+  listPalavras.forEach(palavra => {
+    console.log("palavra atual: ", palavra)
+
+    if (this.loginModel.email.toLowerCase().includes(palavra)){
+      console.log("Palavra Encontrada: ", palavra)
+      this.mensagem = "Dados inválidos" + palavra;
+
+      erroEncontrado = 1;
+    }
+  }) 
+
+  if (erroEncontrado == 0){
+    this.loginService.login(this.loginModel).subscribe( (response) => {
+      this.usuarioLogado = response.body.user.nome
+      console.log(this.usuarioLogado)
+      this.router.navigateByUrl('perfil')
+    },
+    (respostaErro) => {
+      this.mensagem = respostaErro.error
+    })
+  }
 }
 }
