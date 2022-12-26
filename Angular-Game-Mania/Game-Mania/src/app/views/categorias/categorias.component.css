@@ -58,8 +58,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .subitens-r {
@@ -71,8 +70,7 @@ li {
 .tablets {
     display: flex;
     justify-content: center;
-
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .subitens-l1 {
@@ -87,8 +85,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .subitens-r1 {
@@ -101,8 +98,7 @@ li {
 .videogames {
     display: flex;
     justify-content: center;
-
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 
@@ -117,8 +113,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
 
-    padding-top: 200px;
 }
 
 .subitens-r2 {
@@ -135,5 +131,13 @@ li {
 }
 
 .celulares {
+    text-decoration: none;
+}
+
+.videogames {
+    text-decoration: none;
+}
+
+.acessorios {
     text-decoration: none;
 }

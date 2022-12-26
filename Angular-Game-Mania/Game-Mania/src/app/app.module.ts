@@ -25,6 +25,7 @@ import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { VideogamesComponent } from './views/videogames/videogames.component';
+import { AcessoriosComponent } from './views/acessorios/acessorios.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { VideogamesComponent } from './views/videogames/videogames.component';
     Tablets2Component,
     PerfilComponent,
     CelularesComponent,
-    VideogamesComponent
+    VideogamesComponent,
+    AcessoriosComponent
   ],
   imports: [
     BrowserModule,
