@@ -26,6 +26,8 @@ import { PerfilComponent } from './views/perfil/perfil.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { VideogamesComponent } from './views/videogames/videogames.component';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -58,6 +60,7 @@ import { AcessoriosComponent } from './views/acessorios/acessorios.component';
     MatCheckboxModule,
     FormsModule,
     HttpClientModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
