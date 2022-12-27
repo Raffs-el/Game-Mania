@@ -9,7 +9,7 @@
             <form action="">
                 <div class="search-box">
                     <input id="buscar" type="text" placeholder="Buscar">
-                    <button (click)="buscarItens()"><img src="assets/img/Header/Lupa.svg" alt="Product search"></button>
+                    <button class="buscar" (click)="buscarItens()"><img src="assets/img/Header/Lupa.svg" alt="Product search"></button>
                 </div>
             </form>
          <div class="icons-2">
@@ -27,7 +27,7 @@
 
          
         <nav class="menu-nav">
-            <a [mat-menu-trigger-for]="categorias">Categorias</a>
+            <a [mat-menu-trigger-for]="categorias" class="categorias">Categorias</a>
             <mat-menu #categorias>
                 <a href="computadores"><button class="categorias" mat-menu-item [mat-menu-trigger-for]="computadores">Computadores</button></a>
                 <a href="notebooks"><button class="categorias" mat-menu-item [mat-menu-trigger-for]="notebooks">Notebooks</button></a>

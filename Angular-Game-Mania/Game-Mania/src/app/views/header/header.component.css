@@ -75,6 +75,11 @@ a:hover {
 
 .categorias {
     font-family: Work Sans;
+    cursor: pointer;
+}
+
+.buscar {
+    height: 22px;
 }
 
 @media screen and (max-width:1230px) {
