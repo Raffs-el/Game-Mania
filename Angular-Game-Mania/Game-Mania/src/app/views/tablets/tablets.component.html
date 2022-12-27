@@ -9,147 +9,231 @@
     </div>
 </section>
 
-<section class="conteudo-tablets">
+<section class="fundo">
     <div class="grid">
         
-        <div class="produtos-tablets-1">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-1 1.svg">
+        <div class="linha-1">
+            <div class="tablets-1">
+                <div class="card um">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="white">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
                 </div>
-                <div class="card-2">
-                    <div class="gamer">Samsung</div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Samsung</p>
                 </div>
-                <div class="card-3">
-                    <h2 class="description"> Tablet Samsung Galaxy A7 Lite 8,7” 4G Wi-Fi 32GB - MediaTek MT8768T Câm. 8MP
-                    </h2>
-                    <div class="preço"> R$ XXXX,XX </div>
-                </div>
-            </div>
-
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-2-1 1.svg">
-                </div>
-                <div class="card-2">
-                    <div class="gamer">Samsung</div>
-                </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Samsung Galaxy Tab S6 Lite com Caneta - Android 12 4G 10,4” Wi-Fi 128GB Octa-Core 5MP</h2>
-                    <div class="preço2"> <del>R$ XXXX,XX</del></div>
-                    <div class="preçonovo">R$ YYYY,YY</div>
-                </div>
-            </div>
-<div class="prod-3">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-3-1 1.svg">
-                </div>
-                <div class="card-2">
-                    <div class="gamer">Samsung</div>
-                </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Samsung Galaxy Tab A8 10,5” 4G - Wi-Fi 64GB Android 11.0 Câm. 8MP + Selfie 5MP
-                    </h2>
-                    <div class="preço"> R$ XXXX,XX </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="produtos-tablets-2">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-4-1 1.svg">
-                </div>
-                <div class="card-2">
-                    <div class="gamer">Samsung</div>
-                </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Samsung Galaxy Tab S7 FE 12,4” 4G Wi-Fi - 128GB Android Câm. 8MP + Selfie 5MP
-                    </h2>
-                    <div class="preço"> R$ XXXX,XX </div>
+                <div class="descricao">
+                    <p class="description">Tablet Samsung Galaxy A7 Lite 8,7” 4G Wi-Fi 32GB - MediaTek MT8768T Câm. 8MP</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-5-1-1 1.svg">
+            <div class="tablets-1">
+                <div class="card dois">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
                 </div>
-                <div class="card-2">
-                    <div class="gamer">Motorola</div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Samsung</p>
                 </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Motorola Moto G70 Wi-Fi 64GB Aqua Platinum TB-J616F</h2>
-                    <div class="preço"> R$ XXXX,XX </div>
-                </div>
-            </div>
-
-            <div class="prod-3">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-6-3 1.svg">
-                </div>
-                <div class="card-2">
-                    <div class="gamer">Xiaomi</div>
-                </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Xiaomi Pad 5 128GB 11" Android 13 MP Filma em 4K</h2>
-                    <div class="preço2"> <del>R$ XXXX,XX</del></div>
-                    <div class="preçonovo">R$ YYYY,YY</div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="produtos-tablets-3">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-7-2 1.svg">
-                </div>
-                <div class="card-2">
-                    <div class="gamer">Xiaomi</div>
-                </div>
-                <div class="card-3">
-                    <h2 class="description">Tablet Xiaomi Pad 5 11 128gb Branco 6gb De Memória Ram,pearl White - Branco</h2>
-                    <div class="preço"> R$ XXXX,XX </div>
+                <div class="descricao">
+                    <p class="description">Tablet Samsung Galaxy Tab S6 Lite com Caneta - Android 12 4G 10,4” Wi-Fi 128GB Octa-Core 5MP</p>
+                    <p class="preco antigo"><s>R$ XXXX,XX</s></p>
+                    <p class="preco novo">R$ YYYY,YY</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-2 1.svg">
+            <div class="tablets-1">
+                <div class="card tres">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
                 </div>
-                <div class="card-2">
-                    <div class="gamer">Apple</div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Samsung</p>
                 </div>
-                <div class="card-3">
-                    <h2 class="description">iPad 7 Apple com Wi-fi 32GB, Tela 10.2", Bluetooth, GPS, Câmera 8MP, FaceTime HD e iPadOS - Dourado</h2>
-                    <div class="preço2"> <del>R$ XXXX,XX</del></div>
-                    <div class="preçonovo">R$ YYYY,YY</div>
+                <div class="descricao">
+                    <p class="description">Tablet Samsung Galaxy Tab A8 10,5” 4G - Wi-Fi 64GB Android 11.0 Câm. 8MP + Selfie 5MP</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white"class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="prod-3">
-            <div class="produto-1">
-                <div class="card-1">
-                    <img src="assets/img/Tablets/tablet-9-1 1.svg">
+        </div>  
+
+        <div class="linha-2">
+            <div class="tablets-2">
+                <div class="card dois-um">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="white">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
                 </div>
-                <div class="card-2">
-                    <div class="gamer">Apple</div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Samsung</p>
                 </div>
-                <div class="card-3">
-                    <h2 class="description">iPad Pro Apple, Tela Liquid Retina 11", 2TB, Prata, Processador M1, Wi-Fi - MHR33BZ/A</h2>
-                    <div class="preço"> R$ XXXX,XX </div>
+                <div class="descricao">
+                    <p class="description">Tablet Samsung Galaxy Tab S7 FE 12,4” 4G Wi-Fi - 128GB Android Câm. 8MP + Selfie 5MP</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
                 </div>
             </div>
+
+            <div class="tablets-2">
+                <div class="card dois-dois">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
+                </div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Motorola</p>
+                </div>
+                <div class="descricao">
+                    <p class="description">Tablet Motorola Moto G70 Wi-Fi 64GB Aqua Platinum TB-J616F</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
+
+            <div class="tablets-2">
+                <div class="card dois-tres">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
+                </div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Xiaomi</p>
+                </div>
+                <div class="descricao">
+                    <p class="description">Tablet Xiaomi Pad 5 128GB 11" Android 13 MP Filma em 4K</p>
+                    <p class="preco antigo"><s>R$ XXXX,XX</s></p>
+                    <p class="preco novo">R$ YYYY,YY</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white"class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+
+        <div class="linha-3">
+            <div class="tablets-3">
+                <div class="card tres-um">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="white">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
+                </div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Xiaomi</p>
+                </div>
+                <div class="descricao">
+                    <p class="description">Tablet Xiaomi Pad 5 11 128gb Branco 6gb De Memória Ram,pearl White - Branco</p>
+                    <p class="preco antigo"><s>R$ XXXX,XX</s></p>
+                    <p class="preco novo">R$ YYYY,YY</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablets-3">
+                <div class="card tres-dois">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
+                </div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Apple</p>
+                </div>
+                <div class="descricao">
+                    <p class="description">iPad 7 Apple com Wi-fi 32GB, Tela 10.2", Bluetooth, GPS, Câmera 8MP, FaceTime HD e iPadOS - Dourado</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white" class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablets-3">
+                <div class="card tres-tres">
+                    <div id="favorite">
+                        <button onclick = colorchange() mat-fab color="black">
+                        <mat-icon>favorite</mat-icon>
+                    </button>
+                    </div>
+                </div>
+                <div class="tipo"> 
+                    <p class="nomeTipo">Apple</p>
+                </div>
+                <div class="descricao">
+                    <p class="description">iPad Pro Apple, Tela Liquid Retina 11", 2TB, Prata, Processador M1, Wi-Fi - MHR33BZ/A</p>
+                    <p class="preco">R$ XXXX,XX</p>
+                    <div class="botoes-produtos">
+                        <button mat-raised-button class="comprar">Comprar agora</button>
+                        <button mat-mini-fab color="accent" color="white"class="carrinho">
+                            <mat-icon>shopping_cart</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
 
         <div class="paginas">
             <div class="tamanho-icones">
                 <a href="tablets" class="icone-1"></a>
-                <a href="tablets2" class="icone-2"></a>
             </div>
         </div>
 

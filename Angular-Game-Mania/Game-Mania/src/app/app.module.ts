@@ -19,7 +19,6 @@ import { Computadores3Component } from './views/computadores/computadores3/compu
 import { PromocoesComponent } from './views/promocoes/promocoes.component';
 import { NotebooksComponent } from './views/notebooks/notebooks.component';
 import { TabletsComponent } from './views/tablets/tablets.component';
-import { Tablets2Component } from './views/tablets/tablets2/tablets2.component';
 import { PerfilComponent } from './views/perfil/perfil.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { VideogamesComponent } from './views/videogames/videogames.component';
@@ -41,7 +40,6 @@ import {MatButtonModule} from '@angular/material/button';
     PromocoesComponent,
     NotebooksComponent,
     TabletsComponent,
-    Tablets2Component,
     PerfilComponent,
     CelularesComponent,
     VideogamesComponent,
