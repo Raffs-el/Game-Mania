@@ -13,7 +13,6 @@ import { LoginComponent } from './views/login/login.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { CategoriasComponent } from './views/categorias/categorias.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
 import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
 import { PromocoesComponent } from './views/promocoes/promocoes.component';
@@ -34,7 +33,6 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    CategoriasComponent,
     ComputadoresComponent,
     Computadores3Component,
     PromocoesComponent,

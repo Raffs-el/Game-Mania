@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
-import { CategoriasComponent } from './views/categorias/categorias.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
 import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
@@ -17,7 +16,6 @@ import { VideogamesComponent } from './views/videogames/videogames.component';
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "login", component: LoginComponent},
-  { path: "categorias", component: CategoriasComponent},
   { path: "computadores", component: ComputadoresComponent},
   { path: "computadores3", component: Computadores3Component},
   { path: "promocoes", component: PromocoesComponent},
