@@ -1,0 +1,101 @@
+<body>
+
+    <div class="grid alinhamento">
+      <div class="links">
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="computadores"> Computadores</a>/<a class="linkAtual"href="computador2"> AMD RYZEN 5 5600</a>
+      </div>
+  
+      <div class="conteudo">
+        <div class="slides">
+          <input type="radio" name="radio" id="slide1" checked>
+          <input type="radio" name="radio" id="slide2">
+          <input type="radio" name="radio" id="slide3">
+          <input type="radio" name="radio" id="slide4">
+          <input type="radio" name="radio" id="slide5">
+          <input type="radio" name="radio" id="slide6">
+  
+          <div class="slide s1">
+            <img src="assets/img/Produtos/Computadores/9/1-g.svg" alt="Computador visto de perfil sem tampa lateral">
+          </div>
+          <div class="slide">
+            <img src="assets/img/Produtos/Computadores/9/2-g.svg" alt="Computador visto de perfil">
+          </div>
+          <div class="slide">
+            <img src="assets/img/Produtos/Computadores/9/3-g.svg" alt="Computador visto de lado">
+          </div>
+          <div class="slide">
+            <img src="assets/img/Produtos/Computadores/9/4-g.svg" alt="Computador visto de frente">
+          </div>
+          <div class="slide">
+            <img src="assets/img/Produtos/Computadores/9/5-g.svg" alt="Computador visto de cima">
+          </div>
+          <div class="slide">
+            <img src="assets/img/Produtos/Computadores/9/6-g.svg" alt="Computador visto de trás">
+          </div>
+        </div>
+  
+        <div class="navigation">
+          <label for="slide1"> <img src="assets/img/Produtos/Computadores/9/1-s.svg"> </label>
+          <label for="slide2"> <img src="assets/img/Produtos/Computadores/9/2-s.svg"> </label>
+          <label for="slide3"> <img src="assets/img/Produtos/Computadores/9/3-s.svg"> </label>
+          <label for="slide4"> <img src="assets/img/Produtos/Computadores/9/4-s.svg"> </label>
+          <label for="slide5"> <img src="assets/img/Produtos/Computadores/9/5-s.svg"> </label>
+          <label for="slide6"> <img src="assets/img/Produtos/Computadores/9/6-s.svg"> </label>
+  
+        </div>
+      </div>
+  
+      <div class="produtos">
+        <div class="titulo">
+          <h1>AMD RYZEN 5 5600</h1>
+          <button class="botao-favorito" type ="button" onclick="document.getElementById('favorito').src='../assets/img/Produtos/Icones/favorito-ativado.svg'"> <img id="favorito" src="assets/img/Produtos/Icones/favorito.svg"> </button>
+        </div>
+  
+        <h2>R$ XXXX,XX</h2>
+  
+        <div class="avaliacao">
+        <button id='star-1-half' type="button" onmouseover="document.getElementById('star-1').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-1').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-1" src="assets/img/Produtos/Icones/star.svg"> </button>
+        <button id='star-1-fill' type="button" onmouseover="document.getElementById('star-1').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
+        
+        <button id='star-2-half' type="button" onmouseover="document.getElementById('star-2').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-2').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-2" src="assets/img/Produtos/Icones/star.svg"> </button>
+        <button id='star-2-fill' type="button" onmouseover="document.getElementById('star-2').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
+  
+        <button id='star-3-half' type="button" onmouseover="document.getElementById('star-3').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-3').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-3" src="assets/img/Produtos/Icones/star.svg"> </button>
+        <button id='star-3-fill' type="button" onmouseover="document.getElementById('star-3').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
+  
+        <button id='star-4-half' type="button" onmouseover="document.getElementById('star-4').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-4').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-4" src="assets/img/Produtos/Icones/star.svg"> </button>
+        <button id='star-4-fill' type="button" onmouseover="document.getElementById('star-4').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
+  
+        <button id='star-5-half' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-5" src="assets/img/Produtos/Icones/star.svg"> </button>
+        <button id='star-5-fill' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
+        </div>
+  
+        <div class="qtdeCarrinho">
+          <div class="quantidade">
+            <div class="menos"> 
+              <button id="menos" onclick="document.getElementById('qtd').innerHTML = qtd.number --"><img src="assets/img/Produtos/Icones/menos.svg"> </button>
+            </div>
+            <p id="qtd">1</p>
+            <div class="mais"> 
+              <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
+              </div>
+          </div>
+  
+          <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
+        </div>
+  
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+          <mat-expansion-panel-header>
+            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+          </mat-expansion-panel-header>
+        <p id="Produto">Processador: AMD RYZEN 5 5600</p>
+        <p id="Produto">Placa de Vídeo: NVIDIA Quadro T400 2GB</p>
+        <p id="Produto">Memória: 16GB DDR4</p>
+        <p id="Produto">Placa Mãe: A520M</p>
+        <p id="Produto">Fonte: 500W 80 Plus PFC ativo</p>
+        </mat-expansion-panel>
+      </div>
+  
+    </div>
+  </body>
+  
