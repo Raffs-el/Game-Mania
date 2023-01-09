@@ -11,5 +11,7 @@ export class Computador3Component implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  panelOpenState = false;
 
 }
