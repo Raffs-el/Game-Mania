@@ -12,4 +12,7 @@ export class Computador5Component implements OnInit {
   ngOnInit(): void {
   }
 
+  panelOpenState = false;
+
+
 }
