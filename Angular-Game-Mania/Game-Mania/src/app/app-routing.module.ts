@@ -9,6 +9,15 @@ import { Computador6Component } from './produtos/computadores/computador6/comput
 import { Computador7Component } from './produtos/computadores/computador7/computador7.component';
 import { Computador8Component } from './produtos/computadores/computador8/computador8.component';
 import { Computador9Component } from './produtos/computadores/computador9/computador9.component';
+import { Notebooks1Component } from './produtos/notebooks/notebooks1/notebooks1.component';
+import { Notebooks2Component } from './produtos/notebooks/notebooks2/notebooks2.component';
+import { Notebooks3Component } from './produtos/notebooks/notebooks3/notebooks3.component';
+import { Notebooks4Component } from './produtos/notebooks/notebooks4/notebooks4.component';
+import { Notebooks5Component } from './produtos/notebooks/notebooks5/notebooks5.component';
+import { Notebooks6Component } from './produtos/notebooks/notebooks6/notebooks6.component';
+import { Notebooks7Component } from './produtos/notebooks/notebooks7/notebooks7.component';
+import { Notebooks8Component } from './produtos/notebooks/notebooks8/notebooks8.component';
+import { Notebooks9Component } from './produtos/notebooks/notebooks9/notebooks9.component';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
@@ -43,6 +52,15 @@ const routes: Routes = [
   { path: "computador7", component: Computador7Component},
   { path: "computador8", component: Computador8Component},
   { path: "computador9", component: Computador9Component},
+  { path: "notebook1", component: Notebooks1Component},
+  { path: "notebook2", component: Notebooks2Component},
+  { path: "notebook3", component: Notebooks3Component},
+  { path: "notebook4", component: Notebooks4Component},
+  { path: "notebook5", component: Notebooks5Component},
+  { path: "notebook6", component: Notebooks6Component},
+  { path: "notebook7", component: Notebooks7Component},
+  { path: "notebook8", component: Notebooks8Component},
+  { path: "notebook9", component: Notebooks9Component},
   
 
 ];

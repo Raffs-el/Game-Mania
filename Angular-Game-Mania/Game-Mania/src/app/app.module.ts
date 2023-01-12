@@ -36,6 +36,15 @@ import { Computador6Component } from './produtos/computadores/computador6/comput
 import { Computador7Component } from './produtos/computadores/computador7/computador7.component';
 import { Computador8Component } from './produtos/computadores/computador8/computador8.component';
 import { Computador9Component } from './produtos/computadores/computador9/computador9.component';
+import { Notebooks1Component } from './produtos/notebooks/notebooks1/notebooks1.component';
+import { Notebooks2Component } from './produtos/notebooks/notebooks2/notebooks2.component';
+import { Notebooks3Component } from './produtos/notebooks/notebooks3/notebooks3.component';
+import { Notebooks4Component } from './produtos/notebooks/notebooks4/notebooks4.component';
+import { Notebooks5Component } from './produtos/notebooks/notebooks5/notebooks5.component';
+import { Notebooks6Component } from './produtos/notebooks/notebooks6/notebooks6.component';
+import { Notebooks7Component } from './produtos/notebooks/notebooks7/notebooks7.component';
+import { Notebooks8Component } from './produtos/notebooks/notebooks8/notebooks8.component';
+import { Notebooks9Component } from './produtos/notebooks/notebooks9/notebooks9.component';
 
 
 
@@ -69,6 +78,15 @@ import { Computador9Component } from './produtos/computadores/computador9/comput
     Computador7Component,
     Computador8Component,
     Computador9Component,
+    Notebooks1Component,
+    Notebooks2Component,
+    Notebooks3Component,
+    Notebooks4Component,
+    Notebooks5Component,
+    Notebooks6Component,
+    Notebooks7Component,
+    Notebooks8Component,
+    Notebooks9Component,
   ],
   imports: [
     BrowserModule,
