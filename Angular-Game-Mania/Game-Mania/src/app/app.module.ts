@@ -45,6 +45,15 @@ import { Notebooks6Component } from './produtos/notebooks/notebooks6/notebooks6.
 import { Notebooks7Component } from './produtos/notebooks/notebooks7/notebooks7.component';
 import { Notebooks8Component } from './produtos/notebooks/notebooks8/notebooks8.component';
 import { Notebooks9Component } from './produtos/notebooks/notebooks9/notebooks9.component';
+import { Tablet1Component } from './produtos/tablets/tablet1/tablet1.component';
+import { Tablet2Component } from './produtos/tablets/tablet2/tablet2.component';
+import { Tablet3Component } from './produtos/tablets/tablet3/tablet3.component';
+import { Tablet4Component } from './produtos/tablets/tablet4/tablet4.component';
+import { Tablet5Component } from './produtos/tablets/tablet5/tablet5.component';
+import { Tablet6Component } from './produtos/tablets/tablet6/tablet6.component';
+import { Tablet7Component } from './produtos/tablets/tablet7/tablet7.component';
+import { Tablet8Component } from './produtos/tablets/tablet8/tablet8.component';
+import { Tablet9Component } from './produtos/tablets/tablet9/tablet9.component';
 
 
 
@@ -87,6 +96,15 @@ import { Notebooks9Component } from './produtos/notebooks/notebooks9/notebooks9.
     Notebooks7Component,
     Notebooks8Component,
     Notebooks9Component,
+    Tablet1Component,
+    Tablet2Component,
+    Tablet3Component,
+    Tablet4Component,
+    Tablet5Component,
+    Tablet6Component,
+    Tablet7Component,
+    Tablet8Component,
+    Tablet9Component,
   ],
   imports: [
     BrowserModule,

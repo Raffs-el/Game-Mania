@@ -18,6 +18,15 @@ import { Notebooks6Component } from './produtos/notebooks/notebooks6/notebooks6.
 import { Notebooks7Component } from './produtos/notebooks/notebooks7/notebooks7.component';
 import { Notebooks8Component } from './produtos/notebooks/notebooks8/notebooks8.component';
 import { Notebooks9Component } from './produtos/notebooks/notebooks9/notebooks9.component';
+import { Tablet1Component } from './produtos/tablets/tablet1/tablet1.component';
+import { Tablet2Component } from './produtos/tablets/tablet2/tablet2.component';
+import { Tablet3Component } from './produtos/tablets/tablet3/tablet3.component';
+import { Tablet4Component } from './produtos/tablets/tablet4/tablet4.component';
+import { Tablet5Component } from './produtos/tablets/tablet5/tablet5.component';
+import { Tablet6Component } from './produtos/tablets/tablet6/tablet6.component';
+import { Tablet7Component } from './produtos/tablets/tablet7/tablet7.component';
+import { Tablet8Component } from './produtos/tablets/tablet8/tablet8.component';
+import { Tablet9Component } from './produtos/tablets/tablet9/tablet9.component';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
@@ -61,6 +70,15 @@ const routes: Routes = [
   { path: "notebook7", component: Notebooks7Component},
   { path: "notebook8", component: Notebooks8Component},
   { path: "notebook9", component: Notebooks9Component},
+  { path: "tablet1", component: Tablet1Component},
+  { path: "tablet2", component: Tablet2Component},
+  { path: "tablet3", component: Tablet3Component},
+  { path: "tablet4", component: Tablet4Component},
+  { path: "tablet5", component: Tablet5Component},
+  { path: "tablet6", component: Tablet6Component},
+  { path: "tablet7", component: Tablet7Component},
+  { path: "tablet8", component: Tablet8Component},
+  { path: "tablet9", component: Tablet9Component},
   
 
 ];
