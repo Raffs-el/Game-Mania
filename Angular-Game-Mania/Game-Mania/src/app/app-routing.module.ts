@@ -1,5 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Celular1Component } from './produtos/celulares/celular1/celular1.component';
+import { Celular2Component } from './produtos/celulares/celular2/celular2.component';
+import { Celular3Component } from './produtos/celulares/celular3/celular3.component';
+import { Celular4Component } from './produtos/celulares/celular4/celular4.component';
+import { Celular5Component } from './produtos/celulares/celular5/celular5.component';
+import { Celular6Component } from './produtos/celulares/celular6/celular6.component';
+import { Celular7Component } from './produtos/celulares/celular7/celular7.component';
+import { Celular8Component } from './produtos/celulares/celular8/celular8.component';
+import { Celular9Component } from './produtos/celulares/celular9/celular9.component';
 import { Computador1Component } from './produtos/computadores/computador1/computador1.component';
 import { Computador2Component } from './produtos/computadores/computador2/computador2.component';
 import { Computador3Component } from './produtos/computadores/computador3/computador3.component';
@@ -79,7 +88,15 @@ const routes: Routes = [
   { path: "tablet7", component: Tablet7Component},
   { path: "tablet8", component: Tablet8Component},
   { path: "tablet9", component: Tablet9Component},
-  
+  { path: "celular1", component: Celular1Component},
+  { path: "celular2", component: Celular2Component},
+  { path: "celular3", component: Celular3Component},
+  { path: "celular4", component: Celular4Component},
+  { path: "celular5", component: Celular5Component},
+  { path: "celular6", component: Celular6Component},
+  { path: "celular7", component: Celular7Component},
+  { path: "celular8", component: Celular8Component},
+  { path: "celular9", component: Celular9Component},
 
 ];
 

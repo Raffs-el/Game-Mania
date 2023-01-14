@@ -54,6 +54,15 @@ import { Tablet6Component } from './produtos/tablets/tablet6/tablet6.component';
 import { Tablet7Component } from './produtos/tablets/tablet7/tablet7.component';
 import { Tablet8Component } from './produtos/tablets/tablet8/tablet8.component';
 import { Tablet9Component } from './produtos/tablets/tablet9/tablet9.component';
+import { Celular1Component } from './produtos/celulares/celular1/celular1.component';
+import { Celular2Component } from './produtos/celulares/celular2/celular2.component';
+import { Celular3Component } from './produtos/celulares/celular3/celular3.component';
+import { Celular4Component } from './produtos/celulares/celular4/celular4.component';
+import { Celular5Component } from './produtos/celulares/celular5/celular5.component';
+import { Celular6Component } from './produtos/celulares/celular6/celular6.component';
+import { Celular7Component } from './produtos/celulares/celular7/celular7.component';
+import { Celular8Component } from './produtos/celulares/celular8/celular8.component';
+import { Celular9Component } from './produtos/celulares/celular9/celular9.component';
 
 
 
@@ -105,6 +114,15 @@ import { Tablet9Component } from './produtos/tablets/tablet9/tablet9.component';
     Tablet7Component,
     Tablet8Component,
     Tablet9Component,
+    Celular1Component,
+    Celular2Component,
+    Celular3Component,
+    Celular4Component,
+    Celular5Component,
+    Celular6Component,
+    Celular7Component,
+    Celular8Component,
+    Celular9Component,
   ],
   imports: [
     BrowserModule,
