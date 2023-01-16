@@ -36,6 +36,12 @@ import { Tablet6Component } from './produtos/tablets/tablet6/tablet6.component';
 import { Tablet7Component } from './produtos/tablets/tablet7/tablet7.component';
 import { Tablet8Component } from './produtos/tablets/tablet8/tablet8.component';
 import { Tablet9Component } from './produtos/tablets/tablet9/tablet9.component';
+import { Videogame1Component } from './produtos/videogames/videogame1/videogame1.component';
+import { Videogame2Component } from './produtos/videogames/videogame2/videogame2.component';
+import { Videogame3Component } from './produtos/videogames/videogame3/videogame3.component';
+import { Videogame4Component } from './produtos/videogames/videogame4/videogame4.component';
+import { Videogame5Component } from './produtos/videogames/videogame5/videogame5.component';
+import { Videogame6Component } from './produtos/videogames/videogame6/videogame6.component';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
 import { CelularesComponent } from './views/celulares/celulares.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
@@ -97,6 +103,12 @@ const routes: Routes = [
   { path: "celular7", component: Celular7Component},
   { path: "celular8", component: Celular8Component},
   { path: "celular9", component: Celular9Component},
+  { path: "videogame1", component: Videogame1Component},
+  { path: "videogame2", component: Videogame2Component},
+  { path: "videogame3", component: Videogame3Component},
+  { path: "videogame4", component: Videogame4Component},
+  { path: "videogame5", component: Videogame5Component},
+  { path: "videogame6", component: Videogame6Component},
 
 ];
 

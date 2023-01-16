@@ -63,6 +63,13 @@ import { Celular6Component } from './produtos/celulares/celular6/celular6.compon
 import { Celular7Component } from './produtos/celulares/celular7/celular7.component';
 import { Celular8Component } from './produtos/celulares/celular8/celular8.component';
 import { Celular9Component } from './produtos/celulares/celular9/celular9.component';
+import { Videogame1Component } from './produtos/videogames/videogame1/videogame1.component';
+import { Videogame2Component } from './produtos/videogames/videogame2/videogame2.component';
+import { Videogame3Component } from './produtos/videogames/videogame3/videogame3.component';
+import { Videogame4Component } from './produtos/videogames/videogame4/videogame4.component';
+import { Videogame5Component } from './produtos/videogames/videogame5/videogame5.component';
+import { Videogame6Component } from './produtos/videogames/videogame6/videogame6.component';
+
 
 
 
@@ -123,6 +130,12 @@ import { Celular9Component } from './produtos/celulares/celular9/celular9.compon
     Celular7Component,
     Celular8Component,
     Celular9Component,
+    Videogame1Component,
+    Videogame2Component,
+    Videogame3Component,
+    Videogame4Component,
+    Videogame5Component,
+    Videogame6Component,
   ],
   imports: [
     BrowserModule,
