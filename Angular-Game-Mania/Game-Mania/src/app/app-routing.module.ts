@@ -1,5 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Acessorio1Component } from './produtos/acessorios/acessorio1/acessorio1.component';
+import { Acessorio2Component } from './produtos/acessorios/acessorio2/acessorio2.component';
+import { Acessorio3Component } from './produtos/acessorios/acessorio3/acessorio3.component';
+import { Acessorio4Component } from './produtos/acessorios/acessorio4/acessorio4.component';
+import { Acessorio5Component } from './produtos/acessorios/acessorio5/acessorio5.component';
+import { Acessorio6Component } from './produtos/acessorios/acessorio6/acessorio6.component';
+import { Acessorio7Component } from './produtos/acessorios/acessorio7/acessorio7.component';
+import { Acessorio8Component } from './produtos/acessorios/acessorio8/acessorio8.component';
+import { Acessorio9Component } from './produtos/acessorios/acessorio9/acessorio9.component';
 import { Celular1Component } from './produtos/celulares/celular1/celular1.component';
 import { Celular2Component } from './produtos/celulares/celular2/celular2.component';
 import { Celular3Component } from './produtos/celulares/celular3/celular3.component';
@@ -109,6 +118,15 @@ const routes: Routes = [
   { path: "videogame4", component: Videogame4Component},
   { path: "videogame5", component: Videogame5Component},
   { path: "videogame6", component: Videogame6Component},
+  { path: "acessorio1", component: Acessorio1Component},
+  { path: "acessorio2", component: Acessorio2Component},
+  { path: "acessorio3", component: Acessorio3Component},
+  { path: "acessorio4", component: Acessorio4Component},
+  { path: "acessorio5", component: Acessorio5Component},
+  { path: "acessorio6", component: Acessorio6Component},
+  { path: "acessorio7", component: Acessorio7Component},
+  { path: "acessorio8", component: Acessorio8Component},
+  { path: "acessorio9", component: Acessorio9Component},
 
 ];
 

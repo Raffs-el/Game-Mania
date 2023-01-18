@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './views/header/header.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
-import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import { LoginComponent } from './views/login/login.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
@@ -69,6 +68,16 @@ import { Videogame3Component } from './produtos/videogames/videogame3/videogame3
 import { Videogame4Component } from './produtos/videogames/videogame4/videogame4.component';
 import { Videogame5Component } from './produtos/videogames/videogame5/videogame5.component';
 import { Videogame6Component } from './produtos/videogames/videogame6/videogame6.component';
+import { Acessorio1Component } from './produtos/acessorios/acessorio1/acessorio1.component';
+import { Acessorio2Component } from './produtos/acessorios/acessorio2/acessorio2.component';
+import { Acessorio3Component } from './produtos/acessorios/acessorio3/acessorio3.component';
+import { Acessorio4Component } from './produtos/acessorios/acessorio4/acessorio4.component';
+import { Acessorio5Component } from './produtos/acessorios/acessorio5/acessorio5.component';
+import { Acessorio6Component } from './produtos/acessorios/acessorio6/acessorio6.component';
+import { Acessorio7Component } from './produtos/acessorios/acessorio7/acessorio7.component';
+import { Acessorio8Component } from './produtos/acessorios/acessorio8/acessorio8.component';
+import { Acessorio9Component } from './produtos/acessorios/acessorio9/acessorio9.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -136,12 +145,20 @@ import { Videogame6Component } from './produtos/videogames/videogame6/videogame6
     Videogame4Component,
     Videogame5Component,
     Videogame6Component,
+    Acessorio1Component,
+    Acessorio2Component,
+    Acessorio3Component,
+    Acessorio4Component,
+    Acessorio5Component,
+    Acessorio6Component,
+    Acessorio7Component,
+    Acessorio8Component,
+    Acessorio9Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule,
     MatIconModule,
     MatCheckboxModule,
     FormsModule,
@@ -150,7 +167,8 @@ import { Videogame6Component } from './produtos/videogames/videogame6/videogame6
     MatExpansionModule,
     MatPaginatorModule,
     MatSliderModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,9 +14,4 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  buscarItens () {
-    var name = $("buscar").val();
-    alert("Busca concluída!");
-  }
-
 }
