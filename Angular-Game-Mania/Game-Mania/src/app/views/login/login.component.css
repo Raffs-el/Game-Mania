@@ -1,155 +1,192 @@
-.login {
-    height: 860px;
-    background: linear-gradient(120deg, #52596E, #293045, #091C32, #4A6488, #223C5B);
-    background-size: 300%, 300%;
-    animation: colors 100s ease infinite;
+.body {
+    height: 971px;
+    background-image: url('/assets/img/Login/Fundo.svg');
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#mensagem {
-    color: red;
-    margin: 0px;
-}
-
-.loginInput {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.alinhamento-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.moldura {
-    width: 386px;
-    height: 562px;
-    border-radius: 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(5px);
-    webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+.formulario {
+    width: 557px;
+    height: 492px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.infos-login {
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    color: white;
-    display: flex;
-    align-items: center;
-    width: 180px;
-    justify-content: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.linha {
-    background-color: white;
-    width: 50px;
-    height: 1px;
-    border-radius: 50px;
-}
-
-.e-mail {
-    margin-top: 20px;
-    background-color: transparent;
-    border: 1px white;
-    border-style: solid;
-    border-radius: 5px;
-    width: 180px;
-    height: 32px;
-    padding-left: 10px;
-}
-
-.senha {
-    margin-top: 15px;
-    background-color: transparent;
-    border: 1px white;
-    border-style: solid;
-    border-radius: 5px;
-    width: 180px;
-    height: 32px;
-    padding-left: 10px;
-}
-
-.lembrar-senha {
-    padding-top: 15px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-}
-
-.esqueci {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 12px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.enviar {
-    font-family: 'Prompt', sans-serif;
-    text-transform: uppercase;
-    color: black;
-    width: 180px;
-    border-radius: 5px;
-    border: 0px;
-    margin-top: 10px;
-}
-
-
-.login-com {
-    padding-top: 20px;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    color: white;
-    display: flex;
-    align-items: center;
-    width: 180px;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.icones-login {
-    padding-top: 20px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .criar-conta {
-    padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 12px;
-    font-weight: 100;
+    width: 557px;
+    height: 492px;
+    background: linear-gradient(127.96deg, #13547A 0%, #091C32 100%);
+}
+
+.login {
+    font-family: 'Lato' sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.formulario-infos {
+    display: flex;
     align-items: center;
-    flex-direction: column;
+    width: 442px;
+    justify-content: space-between;
+}
+
+.icones {
+    display: flex;
+    justify-content: end;
+    width: 115px;
+    justify-content: space-between;
+}
+
+.alinhamento {
     display: flex;
     justify-content: center;
+}
+
+.email {
+    font-family: 'Karla' sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 36px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.email-input {
+    background-color: #E2E5E9;
+    border: none;
+    outline: 0;
+    width: 442px;
+    height: 46px;
+    border-radius: 45px;
+    padding-left: 20px;
+    font-family: 'Karla' sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.senha {
+    font-family: 'Karla' sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 36px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.senha-input {
+    background-color: #E2E5E9;
+    border: none;
+    outline: 0;
+    width: 442px;
+    height: 46px;
+    border-radius: 45px;
+    padding-left: 20px;
+    font-family: 'Karla' sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.logar {
+    background: linear-gradient(270deg, #091C32 1.13%, #135379 100%);
+    border-radius: 42px;
+    width: 442px;
+    height: 46px;
+    margin-top: 31px;  
+    font-family: 'Karla' sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.lembrar {
+    font-family: 'Karla' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #868686;
+    margin-top: 16px;
+}
+
+.esqueci-senha {
+    text-decoration: none;
+    color: #868686;
+    font-family: 'Karla' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.outros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    width: 442px;
+}
+
+.lembrar {
+    color: #868686;
+    font-family: 'Karla' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.bem-vindo {
+    color: white;
+    font-family: 'Lato' sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.criar-conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pergunta {
+    color: white;
+    font-family: 'Lato' sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+}
+
+.conteudo {
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .criar {
     color: white;
-    text-decoration: underline;
+    font-family: 'Karla' sans-serif;
+    font-weight: 630;
+    font-size: 16px;
+    width: 132px;
+    height: 46px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: white;
+    outline: none;
+
+    cursor: pointer;
 }
+
 
 @keyframes colors {
     0% {

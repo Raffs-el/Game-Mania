@@ -1,13 +1,59 @@
-<section class="login">
-    <div class="grid alinhamento-login">
-        <div class="moldura">
-            <img src="assets/img/Login/Login.svg">
-            <div class="infos-login">
-                <div class="linha"></div>
-                Login
-                <div class=" linha"></div>
-            </div>
 
+<section class="body">
+    <div class="grid alinhamento">
+        <div class="formulario">
+            <form class="loginInput" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <div class="formulario-infos">
+                    <p class="login">Login</p>
+                    <div class="icones">
+                        <a href="#"> <img src="assets/img/Login/google.svg"> </a>
+                        <a href="#"> <img src="assets/img/Login/facebook.svg"> </a>
+                        <a href="#"> <img src="assets/img/Login/twitter.svg"> </a>
+                    </div>
+                </div>
+
+                <div class="campo-email">
+                    <p class="email">Email</p>
+                    <input type="text" class="email-input" placeholder="Email" [(ngModel)]="loginModel.email" name="email">
+                </div>
+
+                <div class="campo-senha">
+                    <p class="senha">Senha</p>
+                    <input type="password" class="senha-input" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
+                </div>
+                
+                <input (click)="enviar()" id="enviar" type="submit" value="enviar" class="logar">
+
+                <div class="outros">
+                <p class="lembrar"> <input type="checkbox"> Lembrar-me </p>
+                <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+                </div>
+            </form>
+        </div>
+        
+        <p id="mensagem" *ngIf="mensagem !='' ">{{ mensagem }}</p>
+
+
+        
+      
+        <div class="criar-conta">
+            <div class="conteudo">
+                <p class="bem-vindo">Bem-vindo!</p>
+                <p class="pergunta">Não possui uma conta?</p>
+                <button type="button" class="criar">Criar conta</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</section>
+
+
+
+
+<!--<section class="login">
             <form  class="loginInput" #loginForm="ngForm" (ngSubmit)="onSubmit()">
                 <div class="email">
                     <input style="color: white" class="e-mail" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email" name="email">
@@ -40,6 +86,4 @@
             </div>
             
         </div>
-    </div>
-
-</section>
+    </div> -->
