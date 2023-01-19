@@ -21,7 +21,6 @@ import { CelularesComponent } from './views/celulares/celulares.component';
 import { VideogamesComponent } from './views/videogames/videogames.component';
 import { AcessoriosComponent } from './views/acessorios/acessorios.component';
 import {MatButtonModule} from '@angular/material/button';
-import { Computadores3Component } from './views/computadores/computadores3/computadores3.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSliderModule} from '@angular/material/slider';
@@ -95,7 +94,6 @@ import {MatMenuModule} from '@angular/material/menu';
     HomeComponent,
     LoginComponent,
     ComputadoresComponent,
-    Computadores3Component,
     PromocoesComponent,
     NotebooksComponent,
     TabletsComponent,
