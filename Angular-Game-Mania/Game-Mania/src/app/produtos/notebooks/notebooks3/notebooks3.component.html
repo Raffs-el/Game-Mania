@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"href="notebook3"> ACER ASPIRE 5</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"> ACER ASPIRE 5</a>
       </div>
   
       <div class="conteudo">
@@ -70,21 +70,21 @@
               <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
               </div>
           </div>
-  
           <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
         </div>
   
-        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #031C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+          <mat-expansion-panel-header style="background-color: #091C32">
+            <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
           </mat-expansion-panel-header>
-          <p id="Produto">Marca: Acer</p>
-          <p id="Produto">Modelo: A514-54-337J</p>
-          <p id="Produto">Processador: Intel® Core™ i3 - 1115G4</p>
-          <p id="Produto">Placa de Vídeo: Intel® UHD Graphics</p>
-          <p id="Produto">Memória: 8 GB DDR4 (4 GB Soldada + 4 GB Módulo) 2666 Mhz </p>
-          <p id="Produto">Tamanho da Tela: 14”</p>
+        <p id="descricao1" style="padding-top: 30px;">Marca: Acer</p>
+        <p id="descricao">Modelo: A514-54-337J</p>
+        <p id="descricao">Processador: Intel® Core™ i3 - 1115G4</p>
+        <p id="descricao">Placa de Vídeo: Intel® UHD Graphics</p>
+        <p id="descricao">Memória: 8 GB DDR4 (4 GB Soldada + 4 GB Módulo) 2666 Mhz </p>
+        <p id="descricao">Tamanho da Tela: 14”</p>
         </mat-expansion-panel>
+
       </div>
   
     </div>

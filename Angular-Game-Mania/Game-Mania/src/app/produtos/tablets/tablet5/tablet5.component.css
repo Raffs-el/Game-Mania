@@ -1,5 +1,6 @@
 .body {
     height: 1200px;
+    background-color: #F5F5F5;
 }
 
 .links {
@@ -7,12 +8,13 @@
     padding-bottom: 50px;
 }
 
+
 .link {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
-    color: #8E8E8E;
+    color: black;
 
 }
 
@@ -21,7 +23,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #000000;
+    color: #8E8E8E;
 }
 
 .conteudo {
@@ -61,7 +63,7 @@
 }
 
 .navigation img:hover {
-    border-color: blue;
+    border-color: #091C32;
 }
 
 input {
@@ -97,6 +99,7 @@ input {
     display: flex;
     height: 969px;
     justify-content: space-between;
+    width: 1270px;
  }
 
  .produtos{
@@ -107,35 +110,40 @@ input {
  
  .titulo {
     display: flex;
+    width: 517px;
+    justify-content: space-between;
+    align-items: center;
+
  }
 
  h1 {
     font-family: 'Lato', sans-serif;
-    width: 400;
-    font-size: 32px;
-    margin-right: 215px;
+    width: 700;
+    font-size: 36px;
+    margin: 0;
  }
 
  #favorito {
     width: 32px;
     cursor: pointer;
-    transform: translateY(-8.5px);
  }
 
  h2 {
     font-family: 'Lato', sans-serif;
-    width: 300;
-    font-size: 22px;
+    width: 200;
+    font-size: 24px;
+    margin-top: 15px;
  }
 
  #star-1, #star-2, #star-3, #star-4, #star-5 {
     width: 16px;
-
-    padding-bottom: 16px;
+    margin-bottom: 16px;
  }
 
  .quantidade {
     display: flex;
+    width: 109px;
+    align-items: center;
  }
 
  #menos {
@@ -159,7 +167,9 @@ input {
 
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
  }
  
  #mais {
@@ -174,17 +184,15 @@ input {
     cursor: pointer;
  }
 
-
-
  #adicionarAoCarrinho {
-    margin-left: 200px;
     background-color: #091C32;
     color: white;
-    width: 273px;
-    height: 44px;
-    border-radius: 15px;
-    transform: translateY(-47px);
-    font-family: 'Work Sans', sans-serif;
+    width: 367px;
+    height: 48px;
+    border-radius: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
  }
 
@@ -192,13 +200,17 @@ input {
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
  }
+
+.descricao {
+    font-family: 'Karla', sans-serif;
+}
 
  .conteudo {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
  }
-
 
  .botao-favorito {
     border: none;
@@ -219,3 +231,12 @@ input {
    opacity: 0%;
    cursor: pointer;
  }
+
+ .qtdeCarrinho {
+    width: 517px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+ }
+

@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks </a>/<a class="linkAtual"href="notebook1"> MSI BRAVO 15</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks </a>/<a class="linkAtual"> MSI BRAVO 15</a>
       </div>
   
       <div class="conteudo">
@@ -75,21 +75,21 @@
               <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
               </div>
           </div>
-  
           <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
         </div>
   
-        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #011C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+          <mat-expansion-panel-header style="background-color: #091C32">
+            <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
           </mat-expansion-panel-header>
-        <p id="Produto">Marca: MSI</p>
-        <p id="Produto">Modelo: BRAVO15B5DD-243US</p>
-        <p id="Produto">Processador: AMD Ryzen™ 5 5600H</p>
-        <p id="Produto">Placa de Vídeo: AMD Radeon™ RX5500M</p>
-        <p id="Produto">Memória: 	16 GB (2 x 8GB) DDR4 3200MHz </p>
-        <p id="Produto">Tamanho da Tela: 15,6"</p>
+        <p id="descricao1" style="padding-top: 30px;">Marca: MSI</p>
+        <p id="descricao">Modelo: BRAVO15B5DD-243US</p>
+        <p id="descricao">Processador: AMD Ryzen™ 5 5600H</p>
+        <p id="descricao">Placa de Vídeo: AMD Radeon™ RX5500M</p>
+        <p id="descricao">Memória: 	16 GB (2 x 8GB) DDR4 3200MHz </p>
+        <p id="descricao">Tamanho da Tela: 15,6"</p>
         </mat-expansion-panel>
+
       </div>
   
     </div>

@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"href="notebook4"> MSI MODERN 14</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"> MSI MODERN 14</a>
       </div>
   
       <div class="conteudo">
@@ -80,21 +80,21 @@
               <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
               </div>
           </div>
-  
           <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
         </div>
   
-        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #041C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+          <mat-expansion-panel-header style="background-color: #091C32">
+            <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
           </mat-expansion-panel-header>
-          <p id="Produto">Marca: MSI</p>
-          <p id="Produto">Modelo: MODERN14B10MW-640US</p>
-          <p id="Produto">Processador: Intel Core i5-10210U</p>
-          <p id="Produto">Placa de Vídeo: UMA</p>
-          <p id="Produto">Memória: 8 GB (1 x 8GB) DDR4 3200MHz</p>
-          <p id="Produto">Tamanho da Tela: 14"</p>
+        <p id="descricao1" style="padding-top: 30px;">Marca: MSI</p>
+        <p id="descricao">Modelo: MODERN14B10MW-640US</p>
+        <p id="descricao">Processador: Intel Core i5-10210U</p>
+        <p id="descricao">Placa de Vídeo: UMA</p>
+        <p id="descricao">Memória: 8 GB (1 x 8GB) DDR4 3200MHz</p>
+        <p id="descricao">Tamanho da Tela: 14"</p>
         </mat-expansion-panel>
+
       </div>
   
     </div>

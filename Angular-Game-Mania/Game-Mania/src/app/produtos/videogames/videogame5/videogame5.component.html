@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="videogames"> Videogames</a>/<a class="linkAtual"href="videogame5"> Nintendo Switch Lite</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="videogames"> Videogames</a>/<a class="linkAtual"> Nintendo Switch Lite</a>
       </div>
   
       <div class="conteudo">
@@ -70,28 +70,27 @@
           <button id='star-5-fill' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
           </div>
   
-        <div class="qtdeCarrinho">
-          <div class="quantidade">
-            <div class="menos"> 
-              <button id="menos" onclick="document.getElementById('qtd').innerHTML = qtd.number --"><img src="assets/img/Produtos/Icones/menos.svg"> </button>
-            </div>
-            <p id="qtd">1</p>
-            <div class="mais"> 
-              <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
+          <div class="qtdeCarrinho">
+            <div class="quantidade">
+              <div class="menos"> 
+                <button id="menos" onclick="document.getElementById('qtd').innerHTML = qtd.number --"><img src="assets/img/Produtos/Icones/menos.svg"> </button>
               </div>
+              <p id="qtd">1</p>
+              <div class="mais"> 
+                <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
+                </div>
+            </div>
+            <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
           </div>
   
-          <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
-        </div>
-  
-        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #061C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
-          </mat-expansion-panel-header>
-          <p id="Produto">Marca: Nintendo</p>
-          <p id="Produto">Modelo: Switch Lite</p>
-          <p id="Produto">Memória interna: 32GB</p>
-        </mat-expansion-panel>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+            <mat-expansion-panel-header style="background-color: #091C32">
+              <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
+            </mat-expansion-panel-header>
+          <p id="descricao1" style="padding-top: 30px;">Marca: Nintendo</p>
+          <p id="descricao">Modelo: Switch Lite</p>
+          <p id="descricao">Memória interna: 32GB</p>
+          </mat-expansion-panel>
       </div>
   
     </div>

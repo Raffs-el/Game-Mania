@@ -2,7 +2,7 @@
 
   <div class="grid alinhamento">
     <div class="links">
-      <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"href="notebook9"> MSI MODERN</a>
+      <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="notebooks"> Notebooks</a>/<a class="linkAtual"> MSI MODERN</a>
     </div>
 
     <div class="conteudo">
@@ -69,21 +69,22 @@
             <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
             </div>
         </div>
-
         <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
       </div>
 
-      <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #051C32;">
-        <mat-expansion-panel-header>
-          <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+      <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+        <mat-expansion-panel-header style="background-color: #091C32">
+          <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
         </mat-expansion-panel-header>
-        <p id="Produto">Marca: MSI</p>
-        <p id="Produto">Modelo: MODERN14B11MO-211US</p>
-        <p id="Produto">Processador: Intel® Core i3-1115G4</p>
-        <p id="Produto">Placa de Vídeo: Intel® Iris® Xe</p>
-        <p id="Produto">Memória: 	8 GB (8 GB x 1) DDR4 3200 MHz</p>
-        <p id="Produto">Tamanho da Tela: 14"</p>
+      <p id="descricao1" style="padding-top: 30px;">Marca: MSI</p>
+      <p id="descricao">Modelo: MODERN14B11MO-211US</p>
+      <p id="descricao">Processador: Intel® Core i3-1115G4</p>
+      <p id="descricao">Placa de Vídeo: Intel® Iris® Xe</p>
+      <p id="descricao">Memória: 	8 GB (8 GB x 1) DDR4 3200 MHz</p>
+      <p id="descricao">Tamanho da Tela: 14"</p>
       </mat-expansion-panel>
+
+      
     </div>
 
   </div>

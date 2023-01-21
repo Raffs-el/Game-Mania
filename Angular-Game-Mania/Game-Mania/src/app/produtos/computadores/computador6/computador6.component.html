@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="computadores"> Computadores</a>/<a class="linkAtual"href="computador6"> AMD RYZEN 5 4500</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="computadores"> Computadores</a>/<a class="linkAtual"> AMD RYZEN 5 4500</a>
       </div>
   
       <div class="conteudo">
@@ -69,7 +69,7 @@
         <button id='star-5-half' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-half.svg'" onmouseout="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star.svg'"> <img id="star-5" src="assets/img/Produtos/Icones/star.svg"> </button>
         <button id='star-5-fill' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
         </div>
-  
+        
         <div class="qtdeCarrinho">
           <div class="quantidade">
             <div class="menos"> 
@@ -80,20 +80,20 @@
               <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
               </div>
           </div>
-  
           <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
         </div>
   
         <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
+          <mat-expansion-panel-header style="background-color: #091C32">
+            <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
           </mat-expansion-panel-header>
-        <p id="Produto">Processador: AMD RYZEN 5 4500</p>
-        <p id="Produto">Placa de Vídeo: RADEON RX 6600 XT 8GB</p>
-        <p id="Produto">Memória: 16GB RGB DDR4</p>
-        <p id="Produto">Placa Mãe: B450M</p>
-        <p id="Produto">Fonte: 500W 80 Plus PFC ativo</p>
+        <p id="descricao1" style="padding-top: 30px;">Processador: AMD RYZEN 5 4500</p>
+        <p id="descricao">Placa de Vídeo: RADEON RX 6600 XT 8GB</p>
+        <p id="descricao">Memória: 16GB RGB DDR4</p>
+        <p id="descricao">Placa Mãe: B450M</p>
+        <p id="descricao">Fonte: 500W 80 Plus PFC ativo</p>
         </mat-expansion-panel>
+
       </div>
   
     </div>

@@ -2,7 +2,7 @@
 
     <div class="grid alinhamento">
       <div class="links">
-        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="celulares"> Celulares</a>/<a class="linkAtual"href="celular7"> Iphone 14 Pro Max</a>
+        <a class="link" href="index.html">Home</a>/<a class="link" href="#"> Categorias</a>/<a class="link" href="celulares"> Celulares</a>/<a class="linkAtual"> Iphone 14 Pro Max</a>
       </div>
   
       <div class="conteudo">
@@ -64,36 +64,37 @@
           <button id='star-5-fill' type="button" onmouseover="document.getElementById('star-5').src='../assets/img/Produtos/Icones/star-fill.svg'"> </button>
           </div>
   
-        <div class="qtdeCarrinho">
-          <div class="quantidade">
-            <div class="menos"> 
-              <button id="menos" onclick="document.getElementById('qtd').innerHTML = qtd.number --"><img src="assets/img/Produtos/Icones/menos.svg"> </button>
-            </div>
-            <p id="qtd">1</p>
-            <div class="mais"> 
-              <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
+          <div class="qtdeCarrinho">
+            <div class="quantidade">
+              <div class="menos"> 
+                <button id="menos" onclick="document.getElementById('qtd').innerHTML = qtd.number --"><img src="assets/img/Produtos/Icones/menos.svg"> </button>
               </div>
+              <p id="qtd">1</p>
+              <div class="mais"> 
+                <button id="mais" onclick="document.getElementById('qtd').innerHTML = qtd.number +1"> <img src="assets/img/Produtos/Icones/mais.svg"> </button>
+                </div>
+            </div>
+            <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
           </div>
   
-          <button type="button" id="adicionarAoCarrinho">Adicionar ao carrinho</button>
-        </div>
-  
-        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #061C32;">
-          <mat-expansion-panel-header>
-            <mat-panel-title id="Produto"> Sobre o Produto </mat-panel-title>
-          </mat-expansion-panel-header>
-          <p id="Produto">Marca: Apple</p>
-          <p id="Produto">Modelo: Iphone 14 Pro Max</p>
-          <p id="Produto">Linha: iPhone</p>
-          <p id="Produto">Memória interna: 1TB</p>
-          <p id="Produto">Sistema Operacional: iOS 16</p>
-          <p id="Produto">Tamanho da Tela: 6.7"</p>
-          <p id="Produto">Câmera traseira: 48 MP + 12 MP + 12 MP</p>
-          <p id="Produto">Câmera frontal: 12MP</p>
-          <p id="Produto">Memória RAM: 6 GB</p>
-          <p id="Produto">Processador: A16</p>
-          <p id="Produto">Capacidade da bateria: 4323 mAh</p>
-        </mat-expansion-panel>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" style="border: 1px solid #091C32;">
+            <mat-expansion-panel-header style="background-color: #091C32">
+              <mat-panel-title id="Produto" style="color: white;"> Sobre o Produto </mat-panel-title>
+            </mat-expansion-panel-header>
+          <p id="descricao1" style="padding-top: 30px;">Marca: AppleD</p>
+          <p id="descricao">Modelo: Iphone 14 Pro Max</p>
+          <p id="descricao">Linha: iPhone</p>
+          <p id="descricao">Memória interna: 1TB</p>
+          <p id="descricao">Sistema Operacional: iOS 16</p>
+          <p id="descricao">Tamanho da Tela: 6.7"</p>
+          <p id="descricao">Câmera traseira: 48 MP + 12 MP + 12 MP</p>
+          <p id="descricao">Câmera frontal: 12MP</p>
+          <p id="descricao">Memória RAM: 6 GB</p>
+          <p id="descricao">Processador: A16</p>
+          <p id="descricao">Capacidade da bateria: 4323 mAh</p>
+          </mat-expansion-panel>
+
+
       </div>
   
     </div>
