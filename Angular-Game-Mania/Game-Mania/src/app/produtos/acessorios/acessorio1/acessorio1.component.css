@@ -15,4 +15,65 @@
     height: 552px;
     width: 552px;
     background-color: #F5F5F5;
+    border: 4px solid #091C32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fechar {
+    padding-top: 22px;
+    padding-right: 22px;
+    align-self: flex-end;
+}
+
+.produto-indisponivel {
+    height: 458px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-family: 'Lato' sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #F21515;
+    text-align: center;
+}
+
+.descricao {
+    font-family: 'Karla' sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.email {
+    padding-left: 20px;
+    width: 385px;
+    outline: 0;
+    height: 40px;
+}
+
+.linha {
+    border: 1px;
+    height: 1px;
+    background-color: #091C32;
+}
+
+.enviar {
+    width: 312px;
+    height: 44px;
+    background-color: #D2E9E3;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    outline: 0;
+    border: none;
+    border-radius: 50px;
 }
