@@ -133,6 +133,50 @@ a {
     .grid {
         width: 600px;
     }
+
+    .footer {
+        height: 900px;
+    }
+
+    .alinhamento {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .sobre {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contato {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .alinhar {
+        justify-content: center;
+    }
+
+    .ajuda {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .redes-sociais {
+        text-align: center;
+    }
+
+    .redes {
+        width: auto;
+    }
 }
 
 @media screen and (max-width:630px) {
