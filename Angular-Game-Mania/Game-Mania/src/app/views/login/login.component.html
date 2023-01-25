@@ -21,6 +21,7 @@
                     <p class="senha">Senha</p>
                     <input type="password" class="senha-input" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
                 </div>
+                <p id="mensagem" *ngIf="mensagem !='' ">{{ mensagem }}</p>
                 
                 <input (click)="enviar()" id="enviar" type="submit" value="enviar" class="logar">
 
@@ -31,7 +32,6 @@
             </form>
         </div>
         
-        <p id="mensagem" *ngIf="mensagem !='' ">{{ mensagem }}</p>
 
 
         

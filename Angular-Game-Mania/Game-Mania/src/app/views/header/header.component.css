@@ -99,24 +99,60 @@ a {
     display: none;
 }
 
+.menu-hamburguer {
+    display: none;
+}
 
-@media screen and (max-width:1230px) {
+.menu-hamburguer-1 {
+    display: none;
+}
+
+@media screen and (max-width:1470px) {
     .grid {
-        width: 1024px;
+        width: 1200px;
     }
 }
 
-@media screen and (max-width:1054px) {
+@media screen and (max-width:1245px) {
     .grid {
-        width: 768px;
+        width: 900px;
+    }
+
+    .links {
+        width: 450px;
+        padding-right: 30px;
     }
 
 }
 
-@media screen and (max-width:972px) {
+@media screen and (max-width:995px) {
+    .grid {
+        width: 600px;
+    }
 
+    .links {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: inline-block;
+    }
+
+    .botoes {
+        width: 200px;
+    }
 }
 
-@media screen and (max-width:790px) {
+@media screen and (max-width:630px) {
+    .grid {
+        width: 360px;
+    }
 
+    .botoes {
+        display: none;
+    }
+
+    .menu-hamburguer-1 {
+        display: inline-block;
+    }
 }

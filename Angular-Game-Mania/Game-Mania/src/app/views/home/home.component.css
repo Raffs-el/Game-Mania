@@ -259,30 +259,120 @@
 }
 
 
-@media screen and (max-width:1230px) {
+@media screen and (max-width:1470px) {
     .grid {
-        width: 1024px;
+        width: 1200px;
+    }
+
+    .input {
+        width: 321px;
+    }
+
+    .imagens {
+        height: 1716px;
+    }
+
+    .pcgamer {
+        width: 591px;
+    }
+
+    .notebook {
+        width: 591px;
+    }
+
+    .marcas {
+        height: 371px;
+    }
+
+    .tablets {
+        height: 714px;
+    }
+
+    .videogames {
+        width: 794.16px;
+    }
+
+    .celulares {
+        width: 389.16px;
+    }
+
+    .acessorios {
+        width: 389.16px;
+    }
+
+    .badges {
+        height: 570px;
     }
 }
 
-@media screen and (max-width:1054px) {
+@media screen and (max-width:1245px) {
     .grid {
-        width: 768px;
+        width: 968px;
     }
 
-  
+    .input {
+        width: 235.7px;
+    }
+
+    .imagens {
+        height: 1470px;
+    }
+
+    .pcgamer {
+        width: 475px;
+    }
+
+    .notebook {
+        width: 475px;
+    }
+
+    .marcas {
+        height: 278.25px;
+    }
+
+    .tablets {
+        height: 600px;
+    }
+
+    .videogames {
+        width: 630px;
+    }
+
+    .celulares {
+        width: 320px;
+    }
+
+    .acessorios {
+        width: 320px;
+    }
+
+    .badges {
+        height: 427.5px;
+    }
+
 }
 
-@media screen and (max-width:972px) {
-    .grid {
-        width: 768px;
+@media screen and (max-width:1245px) {
+    .capa {
+        width: 500px;
+        transform: translateY(40px);
     }
-
 }
 
-@media screen and (max-width:790px) {
-    .grid {
-        width: 480px;
+@media screen and (max-width:1030px) {
+    .marcas {
+        display: none;
     }
+}
 
+@media screen and (max-width:995px) {
+    .grid {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .grid {
+        width: 360px;
+    }
 }
