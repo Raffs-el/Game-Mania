@@ -264,8 +264,16 @@
         width: 1200px;
     }
 
+    .banner {
+        height: 787.5px;
+    }
+
     .input {
         width: 321px;
+    }
+
+    .newsletter {
+        height: 117.5px;
     }
 
     .imagens {
@@ -314,6 +322,10 @@
         width: 235.7px;
     }
 
+    .banner {
+        height: 762.3px;
+    }
+
     .imagens {
         height: 1470px;
     }
@@ -350,6 +362,9 @@
         height: 427.5px;
     }
 
+    .newsletter {
+        height: 113.74px;
+    }
 }
 
 @media screen and (max-width:1245px) {
@@ -369,10 +384,113 @@
     .grid {
         width: 600px;
     }
+
+    .newsletter {
+        height: 200px;
+        text-align: center;
+    }
+
+    .alinhar {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 345px;
+    }
+
+    .badges {
+        height: 600px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .badges-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        height: 600px;
+        background-image: url(/assets/img/Home/Banner/banner.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+    }
+
+    .fundo {
+        display: none;
+    }
+
+    .imagens {
+        height: 1000px;
+    }
+
+    .pcgamer {
+        width: 290px;
+    }
+
+    .notebook {
+        width: 290px;
+    }
+
+    .marcas {
+        height: 278.25px;
+    }
+
+    .tablets {
+        height: 400px;
+    }
+
+    .videogames {
+        width: 390px;
+    }
+
+    .celulares {
+        width: 190px;
+    }
+
+    .acessorios {
+        width: 190px;
+    }
+
+
 }
 
 @media screen and (max-width:630px) {
     .grid {
         width: 360px;
+    }
+
+    .imagens {
+        height: 700px;
+    }
+
+    .pcgamer {
+        width: 200px;
+    }
+
+    .notebook {
+        width: 200px;
+    }
+
+    .tablets {
+        height: 250px;
+    }
+
+    .videogames {
+        width: 300px;
+    }
+
+    .celulares {
+        width: 150px;
+    }
+
+    .acessorios {
+        width: 150px;
+    }
+
+    .badges {
+        height: 550px;
     }
 }
