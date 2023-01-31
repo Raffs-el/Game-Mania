@@ -21,9 +21,6 @@ mensagem = ""
 
 usuarioLogado = ""
 
-enviar () {
-  alert("Verificando Login")
-}
 
 /*
 onSubmit() {

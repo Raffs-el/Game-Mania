@@ -14,16 +14,16 @@
 
                 <div class="campo-email">
                     <p class="email">Email</p>
-                    <input type="text" class="email-input" placeholder="Email" [(ngModel)]="loginModel.email" name="email">
+                    <input type="text" class="email-input" placeholder="Email" id="email" [(ngModel)]="loginModel.email" name="email">
                 </div>
 
                 <div class="campo-senha">
                     <p class="senha">Senha</p>
-                    <input type="password" class="senha-input" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
+                    <input type="password" class="senha-input" placeholder="Senha" id="senha" [(ngModel)]="loginModel.password" name="password">
                 </div>
                 <p id="mensagem" *ngIf="mensagem !='' ">{{ mensagem }}</p>
                 
-                <input (click)="enviar()" id="enviar" type="submit" value="enviar" class="logar">
+                <input id="enviar" type="submit" value="enviar" class="logar">
 
                 <div class="outros">
                 <p class="lembrar"> <input type="checkbox"> Lembrar-me </p>

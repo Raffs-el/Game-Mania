@@ -352,28 +352,115 @@ a {
 
 /* Media Queries */  
 
-@media screen and (max-width:1230px) {
+@media screen and (max-width:1470px) {
     .grid {
-        width: 1024px;
+        width: 1200px;
+    }
+
+    .descricao {
+        width: 380px;
+    }
+
+    .produtos {
+        height: 1700px;
+    }
+
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+        width: 415px;
+        height: 415px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:1245px) {
+    .grid {
+        width: 900px;
+    }
+
+    .acessorios {
+        font-size: 74px;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .descricao {
+        width: 280px;
+    }
+
+    .produtos {
+        height: 1300px;
+    }
+
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+        width: 280px;
+        height: 280px;
+        background-size: cover;
     }
 
 }
 
-@media screen and (max-width:1054px) {
+@media screen and (max-width:995px) {
     .grid {
-        width: 768px;
+        width: 600px;
     }
 
-}
-
-
-@media screen and (max-width:790px) {
-    .grid {
-        width: 480px;
+    .banner {
+        height: 300px;
     }
 
+    .acessorios {
+        font-size: 68px;
+    }
+
+    .descricao {
+        width: 280px;
+    }
+
+    .produtos {
+        height: 4300px;
+    }
+
+    .linha-1, .linha-2, .linha-3{
+        flex-direction: column;
+    }
+
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+        width: 350px;
+        height: 350px;
+        background-size: cover;
+    }
 }
 
-@media screen and (max-width:687px) {
+@media screen and (max-width:630px) {
+    .grid {
+        width: 360px;
+    }
 
+    .banner {
+        height: 250px;
+    }
+
+    .acessorios {
+        font-size: 42px;
+    }
+
+    .descricao {
+        width: 280px;
+    }
+
+    .produtos {
+        height: 3800px;
+    }
+
+    .linha-1, .linha-2, .linha-3{
+        flex-direction: column;
+    }
+
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+    }
 }
